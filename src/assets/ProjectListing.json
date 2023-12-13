@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "Title": "Alphathum",
+        "imgUrl": "alphatthum.webp",
+        "Body": "Bhutani Alphathum is an endeavour to create superior office spaces with a workplace environment that f",
+        "onClick":"alphathum"
+    },
+    {
+        "id": 2,
+        "Title": "Cyberthum",
+        "imgUrl": "cyberThum.webp",
+        "Body": "Standing at the cutting edge of technology, Cyberthum is a 26.8-acre mixed-use complex. Cyberthum off   ",
+        "onClick":"cyberthum"
+    },
+    {
+        "id": 3,
+        "Title": "Bhutani City Center 150",
+        "imgUrl": "bhutaniCityCenter150.webp",
+        "Body": "City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lif   ",
+        "onClick":"bhutanicitycenter150"
+    },
+    {
+        "id": 4,
+        "Title": "Bhutani Technopark",
+        "imgUrl": "bhutaniTechnoPark.jpg",
+        "Body": "Bhutani TechnoPark offers office spaces in Noida which are both spacious and well-designed. The projec   ",
+        "onClick":"bhutanitechnopark"
+    },
+    {
+        "id": 5,
+        "Title": "Avenue 62",
+        "imgUrl": "avenue62.webp",
+        "Body": "The future-ready retail space will offer a wider experience than just physical shops, but rather place   ",
+        "onClick":"avenue62"
+    },
+    {
+        "id": 6,
+        "Title": "Avenue 133",
+        "imgUrl": "avenue133.jpg",
+        "Body": "Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail.   ",
+        "onClick":"avenue133"
+    },
+    {
+        "id": 7,
+        "Title": "Cyber Park",
+        "imgUrl": "cyberPark.jpg",
+        "Body": "Cyber Park Office Spaces are built and designed around IT infrastructure services. From providing the    ",
+        "onClick":"cyberpark"
+    },
+    {
+        "id": 8,
+        "Title": "City Center GZB",
+        "imgUrl": "cityCenterGZB.jpg",
+        "Body": "CITY CENTER GZB has stood tall as the premier destination and only mall in Mohan Nagar, Ghaziabad for    ",
+        "onClick":"citycentergzb"
+    },
+    {
+        "id": 9,
+        "Title": "365 Office",
+        "imgUrl": "365Office.webp",
+        "Body": "After living through the eccentric work-from-home phase, we realized that workspaces are not just about",
+        "onClick":"365office"
+    },
+    {
+        "id": 10,
+        "Title": "I Thum",
+        "imgUrl": "iThum.webp",
+        "Body": "Bhutani Group offers commercial office spaces in Noida on its 5-acre plot. On its completion, I-Thum w &nbsp;&nbsp;",
+        "onClick":"ithum"
+    }
+]

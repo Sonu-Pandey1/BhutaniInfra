@@ -1,0 +1,20 @@
+$primary-color:#0D6EFD;
+$secondary-color: rgba(0, 0, 0, 0.78);
+$font-primary-w: #ffffff;
+$font-primary-b: #000000;
+$font-secondary-w: #d3c9c9;
+$font-secondary-b: #777C85;
+
+$blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+$orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+$shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+
+.Para{
+    font-size: large;
+    letter-spacing: 0.1rem;
+    color: $font-secondary-b;
+    padding: 0px;
+    margin: 0px;
+   
+}
+// @import "../../public/alphathum.mp4";

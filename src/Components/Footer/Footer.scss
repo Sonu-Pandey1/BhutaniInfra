@@ -1,0 +1,237 @@
+@import "../../assets/Common.scss";
+
+.footer{
+    background-image: url("https://www.bhutanigroup.com/front/img/map.png");
+}
+
+.footer {
+    height: auto;
+    width: auto;
+    background-color: #000;
+    color: white;
+
+    .row1 {
+
+        .col1 {
+
+            .innercol1{
+                padding-bottom: 130px;
+            }
+        }
+
+        .col2 {
+
+            .innercol2{
+    
+                padding-bottom: 35px;
+                h4{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-bottom: 20px;     
+                }
+
+                .impLinks{
+                    
+                    .navlink{
+                        font-family: 'Courier New', Courier, monospace;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .col3 {
+
+            .innercol3 {
+
+                h4 {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+
+                .f-projects1 {
+
+                    height: 5rem;
+                    width: auto;
+
+                    .f-imgwrapper {
+
+                        margin-right: 20px;
+                        img {                    
+                            border-radius: 50%;
+                            width: 8rem;
+                        }
+                    }
+
+                    .f-contentwrapper {
+                        
+                        p {
+                            font-size: 0.9rem;
+                            color: $font-secondary-w;
+                        }
+                    }
+                }
+
+                .f-projects2 {
+
+                    height: 5rem;
+                    width: auto;
+
+                    .f-imgwrapper {
+                        margin-right: 20px;
+                        img {
+                            border-radius: 50%;
+                            width: 7rem;
+                        }
+                    }
+                    
+                    .f-contentwrapper {
+                        p {
+                            font-size: 0.9rem;
+                            color: $font-secondary-w;
+                        }
+                    }
+                }
+
+                .f-projects3 {
+
+                    height: 5rem;
+                    width: auto;
+
+                    .f-imgwrapper {
+                        margin-right: 20px;
+                        img {
+                            border-radius: 50%;
+                            width: 7rem;
+                        }
+                    }
+
+                    .f-contentwrapper {
+
+                        p {
+                            font-size: 0.9rem;
+                            color: $font-secondary-w;
+                        }
+                    }
+                }
+            }
+        }
+
+        .col4 {
+            
+            .innercol4{
+                padding-bottom: 110px;
+                h6 {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    letter-spacing: 0.1rem;
+                }
+    
+                p {
+                    font-size: 0.9rem;
+                    margin-top: -5px;
+                    color: $font-secondary-w;
+                }
+    
+                .ficon {
+                    font-size: 1.9rem;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                    padding: 5px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .row2 {
+        
+
+        .innerrow2col1 {
+
+            .row2para1 {
+                font-size: 0.8rem;
+                color: $font-secondary-w;
+            }
+
+            .row2para2 {
+                font-size: 0.9rem;
+                font-weight: 700;
+                color: $font-secondary-w;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .col1{
+        text-align: center;
+        
+    }
+    .col4{
+        padding: 40px;
+        // margin-top: 3rem;
+        // margin-left: 15%;
+    }
+    .col3{
+        padding:10px;
+        margin-top: -3rem;
+        
+    }
+    .col2{
+        padding: 40px;
+        margin-top: -8rem;
+        
+    }
+    .hr{
+        margin-top: -8rem;
+    }
+    .f-imgwrapper{
+        img{
+            // height: 4rem;
+            // width: 3rem;
+            // margin: 2rem;
+        }
+        .img-fluid{
+            // margin-top: 3rem;
+            // height: 4rem;
+        }
+    }
+}
+
+
+@media ((min-width:400px)and (max-width:576px)) {
+    .f-imgwrapper{
+        img{
+            // background-color: red;
+            height: 5rem;
+            // width: 40rem;
+            // width: 3rem;
+            // margin: 2rem;
+        }
+        .img-fluid{
+            // margin-top: 3rem;
+            // height: 4rem;
+        }
+        .f-projects2{
+            margin-top: 30px;
+
+        }
+    }
+
+    
+}
+
+
+
+
+
+
+

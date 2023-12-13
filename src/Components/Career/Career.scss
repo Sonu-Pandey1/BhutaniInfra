@@ -1,0 +1,96 @@
+.career-wrapper {
+
+    .container-fluid {
+
+        .img-wrapper {
+            margin: 0px;
+            padding: 0px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .container {
+
+        .c-title {
+
+            .careerTitle {
+
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                    margin-top: 20px;
+
+                }
+
+                p {
+                    font-size: 1.1rem;
+                    text-align: justify;
+                    color: #46494e;
+                    word-spacing: 0.1rem;
+                }
+            }
+        }
+
+        .intrestPara {
+
+            p {
+                font-size: 1.1rem;
+                color: #46494e;
+
+                span {
+                    font-weight: 800;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    .career-wrapper {
+        // background-color: red;
+        .container-fluid{
+            .img-wrapper{
+                
+                img{
+                    height: 45vh;
+                }
+            }
+            
+
+        }
+
+        .container {
+
+            .c-title {
+    
+                .careerTitle {
+    
+                    h3 {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        letter-spacing: 0.1rem;
+                        text-align: center;
+                        margin-top: 20px;
+    
+                    }
+    
+                    p {
+                        font-size: 1rem;
+                        text-align: justify;
+                        color: #46494e;
+                        word-spacing: 0.1rem;
+                    }
+                }
+            }}
+       
+    }
+    
+}
