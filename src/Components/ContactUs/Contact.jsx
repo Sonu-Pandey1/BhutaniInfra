@@ -18,25 +18,25 @@ export default function Contact() {
                     <div className="col form shadow-lg col-12 form-col1 col-sm-12 col-md-12 col-lg-6 ">
                         <h6 className="mb-4">Get In Touch</h6>
                         <form className="row g-3 needs-validation"  noValidate>
-                            <div className=" col-6 ">
+                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6   ">
                                 <input type="text" className="form-control" id="name" autoComplete="true"  placeholder="Name" required />
                                 <div className="valid-feedback">
                                     Looks good!
                                 </div>
                             </div>
-                            <div className=" col-6 ">
+                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                                 <input type="text" className="form-control" autoComplete="true" id={"email"} placeholder="Email" required />
                                 <div className="valid-feedback">
                                     Looks good!
                                 </div>
                             </div>
-                            <div className=" col-6 ">
+                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                                 <input type="text" className="form-control" autoComplete="true" id={"phone"}  placeholder="Phone" required />
                                 <div className="valid-feedback">
                                     Looks good!
                                 </div>
                             </div>
-                            <div className=" col-6 ">
+                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                                 <input type="text" className="form-control" id={"city"} required placeholder="City" />
                                 <div className="invalid-feedback">
                                     Please provide a valid city.

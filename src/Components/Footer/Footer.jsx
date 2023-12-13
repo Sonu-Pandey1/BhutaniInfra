@@ -8,11 +8,11 @@ import "../Footer/Footer.scss"
 export default function Footer() {
     return (
         <>
-            <footer className="footer pt-3 mt-5">
+            <footer className="footer pt-4 mt-5">
                 <div className="container-fulid">
                     <div className="container">
                         <div className="row row1">
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-2 col1 ">
+                            <div className="col col-12 col-sm-12 col-md-6 col-lg-2 col1  ">
                                 <div className="innercol1">
                                     <img loading="lazy" src="https://www.bhutanigroup.com/front/img/logo2.png" alt="img" />
                                 </div>

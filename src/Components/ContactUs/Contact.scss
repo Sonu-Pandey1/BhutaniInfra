@@ -78,6 +78,41 @@
             }
 
         }
+
+        .container {
+
+            .form {
+                
+                padding: 10px;
+   
+                form {
+    
+                    input {
+                        padding: 8px;
+                    }
+    
+                    .textarea {
+                        border-radius: 6px;
+                    }
+    
+                    .col-3 {
+    
+                        i {
+                            color: red;
+                        }
+                    }
+                }
+            }
+
+            .form-col2 {
+                margin-top: 2rem;
+                .col-9{
+                    // background-color: red;
+                    // margin-top: 1rem;
+                }
+
+            }
+        }
        
     }
 

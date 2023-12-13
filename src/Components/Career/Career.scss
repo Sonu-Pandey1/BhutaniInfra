@@ -55,33 +55,34 @@
 
 @media (max-width:768px) {
     .career-wrapper {
+
         // background-color: red;
-        .container-fluid{
-            .img-wrapper{
-                
-                img{
+        .container-fluid {
+            .img-wrapper {
+
+                img {
                     height: 45vh;
                 }
             }
-            
+
 
         }
 
         .container {
 
             .c-title {
-    
+
                 .careerTitle {
-    
+
                     h3 {
                         font-size: 1.5rem;
                         font-weight: 700;
                         letter-spacing: 0.1rem;
                         text-align: center;
                         margin-top: 20px;
-    
+
                     }
-    
+
                     p {
                         font-size: 1rem;
                         text-align: justify;
@@ -89,8 +90,9 @@
                         word-spacing: 0.1rem;
                     }
                 }
-            }}
-       
+            }
+        }
     }
-    
 }
+
+
