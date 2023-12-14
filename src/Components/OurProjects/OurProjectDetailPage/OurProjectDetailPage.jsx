@@ -17,7 +17,7 @@ export default function OurProjectDetailPage() {
 
   const getProduct = () => {
     const newProduct = data.find((items) => items.id === id)
-    console.log(newProduct)
+    // console.log(newProduct)
     setProduct(newProduct)
   }
 
@@ -54,14 +54,14 @@ export default function OurProjectDetailPage() {
         <div className="row subnavrow">
           <div className="subNav text-center">
             <ul>
-              <li>
+              {product.subNavLink1 && <li>
                 <NavLink to={""}>{`${product.subNavLink1}`}</NavLink>
-              </li>
+              </li>}
               <li><a href="#">{`${product.subNavLink2}`}</a></li>
               <li><a href="#">{`${product.subNavLink3}`}</a></li>
-              <li><a href="#">{`${product.subNavLink4}`}</a></li>
-              <li><a href="#">{`${product.subNavLink5}`}</a> </li>
-              <li><a href="#">{`${product.subNavLink6}`}</a></li>
+              { product.subNavLink4 && <li><a href="#">{`${product.subNavLink4}`}</a></li>}
+             {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a> </li> }
+             <li><a href="#">{`${product.subNavLink6}`}</a></li>
             </ul>
           </div>
         </div>
@@ -205,7 +205,7 @@ export default function OurProjectDetailPage() {
               </div>
 
               <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <h5 className="text-center mt-4">Plan II</h5>
+                <h5 className="text-center plan2">Plan II</h5>
                 <div className="imgWrapper ">
                   <img src={`${product.floorPlan2ImgUrl}`} alt="img" />
                 </div>
@@ -238,34 +238,34 @@ export default function OurProjectDetailPage() {
             <div className=" col form shadow-lg ">
               <h6 className="mb-4">Get In Touch</h6>
               <form className="row g-3 needs-validation" noValidate>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                <div className=" col-12 col-sm-12 col-md-6 col-lg-4 ">
                   <input type="text" className="form-control" id="name" autoComplete="true" placeholder="Name" required />
                   <div className="valid-feedback">
                     Looks good!
                   </div>
                 </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
                   <input type="text" className="form-control" autoComplete="true" id={"email"} placeholder="Email" required />
                   <div className="valid-feedback">
                     Looks good!
                   </div>
                 </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
                   <input type="text" className="form-control" autoComplete="true" id={"phone"} placeholder="Phone" required />
                   <div className="valid-feedback">
                     Looks good!
                   </div>
                 </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-6">
+                {/* <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
                   <input type="text" className="form-control" id={"city"} required placeholder="City" />
                   <div className="invalid-feedback">
                     Please provide a valid city.
                   </div>
+                </div> */}
+                <div className=" col ">
+                  <textarea className="textarea col-12  " name="CommentSection" id={"textarea"} cols="30" rows="4" placeholder="Comment..."></textarea>
                 </div>
-                <div className=" col text-center">
-                  <textarea className="textarea " name="CommentSection" id={"textarea"} cols="130" rows="4" placeholder="Comment..."></textarea>
-                </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                <div className=" col-12 col-sm-12 col-md-12 col-lg-12 text-center">
                   <button className="btn btn-dark " type="submit">Send Now</button>
                 </div>
               </form>

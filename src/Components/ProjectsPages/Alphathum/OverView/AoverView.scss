@@ -214,8 +214,6 @@
 
 
         .container {
-
-
             .form {
                 border-top: 2px solid black;
                 padding: 40px;
@@ -230,7 +228,7 @@
                 form {
 
                     input {
-                        padding: 8px;
+                        padding: 10px;
                     }
 
                     .textarea {
@@ -263,22 +261,28 @@
 }
 
 @media (max-width:768px) {
+  
     .container {
         
         .row{
             .col{
+                
                 padding: 15px !important;
                 // background-color: red;
                 .form {
                     padding: 0px;
                     margin: 0px;
+                   
                     form {
+                        height: 100%;
+                        width: 100%;
                         
                         input {
                             padding: 8px;
                         }
                         .textarea {
                             border-radius: 6px;
+                            
                         }
                         .col-3 {
                             i {
@@ -299,6 +303,10 @@
         .floorPlanRow {
             // background-color: blue;
             height: auto;
+
+            .plan2{
+                margin-top: 30px;
+            }
             
 
             .imgWrapper {
