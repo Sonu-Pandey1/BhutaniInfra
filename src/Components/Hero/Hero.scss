@@ -282,6 +282,7 @@
         // background-image: linear-gradient(90deg, rgba(50, 179, 136, 1) 0%, rgba(185, 186, 45, 0.7819502801120448) 48%, rgba(0, 212, 255, 1) 100%);
         background-color: #8EC5FC;
         background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        
 
     }
 }
@@ -375,4 +376,22 @@
         }
     }
 
+}
+
+@media (max-width :768px) {
+    
+    .h-containt-wrapper{
+        .h-container{
+            h6{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            h1{
+                // color: red;
+                font-size: 2rem;
+            }
+
+        }
+    }
+    
 }

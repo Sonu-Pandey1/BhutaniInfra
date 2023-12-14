@@ -56,3 +56,14 @@
     }
 
 }
+
+@media (max-width :768px) {
+    .Carousel{
+        .CarouselItem{
+            img{
+                height: 45vh;
+            }
+        
+           }
+    }    
+}

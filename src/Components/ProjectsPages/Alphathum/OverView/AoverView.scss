@@ -74,24 +74,27 @@
         .container {
             .alphathumSubProjects {
 
-                // z-index: -30;
                 .row {
-                    .col-4 {
-                        .navlink {
-                            margin-bottom: 20px;
 
-                            // position: relative;
-                            // z-index: 20;
+                    .coll-4 {
+
+                        .navlink {
+                            .img {
+                                height: 100%;
+                                width: 100%;
+                            }
+
+                            // margin-bottom: 20px;
+
                             .subprojectlogoWrapper {
-                                // position: relative;
 
                                 .subprojectlogo {
+                                    display: block;
+                                    margin: 0px auto;
                                     // position: sticky;
                                     // top: 100vh;
                                     // left: 70px;
-                                    height: 5rem;
-                                    margin-left: 90px;
-                                    // transform: translate(70px);
+                                    height: 4rem;
                                     transform: translateY(-40px);
                                     z-index: -1;
                                     border-left: 3px solid black;
@@ -211,7 +214,7 @@
 
 
         .container {
-            
+
 
             .form {
                 border-top: 2px solid black;
@@ -243,11 +246,12 @@
                 }
             }
 
-            .videoWrapper{
+            .videoWrapper {
                 // background-color: red;
                 height: 100%;
                 width: 100%;
-                video{
+
+                video {
                     height: 100%;
                     width: 100%;
                 }
@@ -256,4 +260,134 @@
 
 
     }
+}
+
+@media (max-width:768px) {
+    .container {
+        
+        .row{
+            .col{
+                padding: 15px !important;
+                // background-color: red;
+                .form {
+                    padding: 0px;
+                    margin: 0px;
+                    form {
+                        
+                        input {
+                            padding: 8px;
+                        }
+                        .textarea {
+                            border-radius: 6px;
+                        }
+                        .col-3 {
+                            i {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+                .form-col2 {
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+
+    .AoverviewWrapper {
+        
+        .floorPlanRow {
+            // background-color: blue;
+            height: auto;
+            
+
+            .imgWrapper {
+                height: 100%;
+                width: 100%;
+                // background-color: red;
+               
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit:contain;
+                    // border-radius: 50%;
+                }
+            }
+
+        }
+
+
+        .container-fluid {
+            .imgWrappper {
+
+                img {
+                    height: 45vh;
+                }
+            }
+
+            .subnavrow {
+                padding: 0px 0px;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+
+                .subNav {
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    background-color: #ffffff;
+
+                    ul {
+                        // align-items: center;
+                        display: flex;
+                        flex-direction: column;
+
+
+                        li {
+                            border-radius: 3%;
+                            margin: 5px 0px;
+
+                            // align-items: center;
+                            // width: 100%;
+                            height: 3rem;
+                            padding: 10px;
+                            color: white;
+                            background-color: #000000;
+                        }
+                    }
+                }
+            }
+
+            // .container {
+            //     .floorPlanWrapper {
+
+
+
+            //     }
+            // }
+        }
+
+        .container {
+            .imgWrappper {
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .container {
+            .aboutAlphathum {
+                h6 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+
 }

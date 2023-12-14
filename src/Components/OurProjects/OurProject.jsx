@@ -21,7 +21,7 @@ export default function OurProject() {
                         ProjectListing.map((items)=>{
                             {/* console.log(items) */}
 
-                            return <div className="col-4"  key={items.id}>
+                            return <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3"  key={items.id}>
                                 <ListingCard title={items.Title} imgUrl={items.imgUrl} about={items.Body ? items.Body.slice(0,120):"content not found"} onClick={items.onClick}/>
                             </div>
                         })
