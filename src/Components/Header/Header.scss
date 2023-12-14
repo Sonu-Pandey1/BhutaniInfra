@@ -1,7 +1,7 @@
 // Header css is here -->>>
 
-.navbar {
 
+.navbar {
     .navbar-brand {
         padding: 1rem;
 
@@ -29,7 +29,6 @@
 }
 
 .navbar-brand {
-
     img {
         height: 100%;
         width: 100%;
@@ -37,18 +36,13 @@
 }
 
 .navbar-collapse {
-
     .navbar-nav {
-
         .nav-item {
             padding: 0.8rem;
-            // background-color: aqua;
         }
         .navItem{
             .active{
                 color: black;
-                // font-weight: bold;
-                // transition: all 0.5s linear;
             }
         }
 
@@ -59,20 +53,15 @@
                 color: #777C85;
                 font-size: 1rem;
                 font-weight: 500;
-                // background-color: red;   
             }
         }
 
         .dropdown {
             .dropdown-menu {
                 padding: 0px;
-                // background-color: aqua;
 
                 .nav-item {
-                    // background-color: red;
                     padding: 0px;
-                    // padding-top: 8px;
-                    //     padding-right: 40px;
                     margin: 0.5rem 0.4rem;
                     
                     .nav-link {
@@ -81,10 +70,6 @@
                         font-weight: 100;
                         border-radius: 6px;
                         width: 12rem;
-                        // margin-top: 0.1rem;
-                        // padding-top: 8px;
-                            // padding-right: 90px !important;
-
                     }
                     .nav-link:hover {
                         font-size: 0.9rem;
@@ -94,17 +79,12 @@
                     }
 
                     .dropdown-menu {
-                        // background-color: aqua;
                         padding: 0px;
                         padding: 10px;
 
                         .dropdown-item {
-                            
-                            // background-color: red;
-                            // border: 2px solid yellow;
                             padding-top: 8px;
                             padding-right: 40px;
-                            // text-align: center;
                         }
                         .active{
                             color: rgb(255, 255, 255);
@@ -120,7 +100,6 @@
                     }
                 }
             }
-
         }
     }
 }
@@ -132,7 +111,6 @@
     left: 0%;
     height: 3px;
     width: 100%;
-    // margin-left: -10px;
     background-color: rgba(108, 220, 220, 0.9);
     border-radius: 90px;
     transform: scaleX(0);
@@ -165,7 +143,6 @@
 //          }
 
 //     }
-
 
 
 //     li{

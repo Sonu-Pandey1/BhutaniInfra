@@ -94,7 +94,6 @@ export default function Footer() {
                                 <p className="row2para2">© Copyright Bhutani Infra. Design & Development By Bhutani Group </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </footer>

@@ -19,11 +19,37 @@ export default function Header() {
 
     const navigate = useNavigate()
 
+
+    // let navEl = document.querySelector(".navbar-nav")
+    // let hamburgerEl = document.getElementById(".navbar-toggler")
+    // hamburgerEl.addEventListener("click",()=>{
+    //     navEl.classList.toggle("navOpen")
+
+    // })
+    const closeNavbar = () => {
+        const navbarToggler = document.querySelector(".navbar-toggler");
+        const navbarCollapse = document.querySelector(".navbar-collapse");
+
+        // Check if the navbar is currently open before toggling
+        if (navbarToggler.classList.contains("collapsed")) {
+            return;
+        }
+
+        navbarToggler.classList.add("collapsed");
+        navbarCollapse.classList.remove("show");
+    };
+
+    const navigateAndCloseNavbar = (to) => {
+        navigate(to);
+        closeNavbar();
+    };
+
+
     return (
         <section className="header-wrapper  stickyNav shadow-lg ">
             <div className="header-container ">
 
-                <nav className="navbar navbar-expand-lg bg-body-tertiary p-0   ">
+                <nav id={"navbar"} className="navbar navbar-expand-lg bg-body-tertiary p-0   ">
                     <div className={`container-fluid px-4 `}>
                         <NavLink className="navbar-brand">
                             <img loading="lazy" src="https://www.bhutanigroup.com/front/img/logo.png" alt="img" />
@@ -34,17 +60,17 @@ export default function Header() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item navItem">
-                                    <NavLink to={"/"} className="nav-link navLink " >Home</NavLink>
+                                    <NavLink onClick={closeNavbar} to={"/"} className="nav-link  navLink " >Home</NavLink>
                                 </li>
                                 <li className="nav-item navItem">
-                                    <NavLink to={"/about"} className="nav-link navLink " >About Us</NavLink>
+                                    <NavLink onClick={closeNavbar} to={"/about"} className="nav-link navLink " >About Us</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <NavLink className="nav-link navLink dropdown-toggle " onClick={() => { navigate("/ourproject") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Properties</NavLink>
                                     <ul className="dropdown-menu">
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link" onClick={() => { navigate("ourproject/alphathum") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Alphathum</NavLink>
+                                            <NavLink className="nav-link" onClick={() => navigateAndCloseNavbar("ourproject/alphathum")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Alphathum</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/alphathum/alphainfinity"} className="dropdown-item">Alpha Infinity</NavLink>
@@ -75,7 +101,7 @@ export default function Header() {
                                         </li>
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link" onClick={() => { navigate("ourproject/cyberthum") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Cyberthum</NavLink>
+                                            <NavLink className="nav-link" onClick={() => navigateAndCloseNavbar("ourproject/cyberthum")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Cyberthum</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/cyberthum/retailspace"} className="dropdown-item">Retail Space</NavLink>
@@ -98,7 +124,7 @@ export default function Header() {
 
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/bhutanicitycenter150") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">City Center 150</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/bhutanicitycenter150")} role="button" data-bs-toggle="dropdown" aria-expanded="false">City Center 150</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/citycenter150/centralglam"} className="dropdown-item">Central Glam</NavLink>
@@ -137,7 +163,7 @@ export default function Header() {
 
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/avenue62") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Avenue 62</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/avenue62")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Avenue 62</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/avenue62/bolt"} className="dropdown-item">Bolt</NavLink>
@@ -158,7 +184,7 @@ export default function Header() {
                                         </li>
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link" onClick={() => { navigate("ourproject/bhutanitechnopark") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Bhutani Technopark</NavLink>
+                                            <NavLink className="nav-link" onClick={() => navigateAndCloseNavbar("ourproject/bhutanitechnopark")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Bhutani Technopark</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/bhutanitechnopark/bhutanihive"} className="dropdown-item">Bhutani Hive</NavLink>
@@ -179,7 +205,7 @@ export default function Header() {
                                         </li>
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/cyberpark/") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Cyber Park</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/cyberpark/")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Cyber Park</NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
                                                     <NavLink to={"ourproject/cyberpark/etherea"} className="dropdown-item">Cyberpark Etherea</NavLink>
@@ -190,7 +216,7 @@ export default function Header() {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/citycentergzb") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">City Center GZB
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/citycentergzb")} role="button" data-bs-toggle="dropdown" aria-expanded="false">City Center GZB
                                             </NavLink>
                                             <ul className="dropdown-menu">
                                                 <li>
@@ -200,7 +226,7 @@ export default function Header() {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropend ">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/avenue133") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Avenue 133</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/avenue133")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Avenue 133</NavLink>
                                             {/* hidden ul west */}
                                             <ul className="dropdown-menu hidden">
                                                 <li>
@@ -211,7 +237,7 @@ export default function Header() {
 
                                         </li>
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/ithum") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">I Thum</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/ithum")} role="button" data-bs-toggle="dropdown" aria-expanded="false">I Thum</NavLink>
                                             <ul className="dropdown-menu hidden">
                                                 <li>
                                                     <NavLink to={"/"} className="dropdown-item">Bhutani Cineple</NavLink>
@@ -222,7 +248,7 @@ export default function Header() {
                                         </li>
 
                                         <li className="nav-item dropend">
-                                            <NavLink className="nav-link " onClick={() => { navigate("ourproject/365office") }} role="button" data-bs-toggle="dropdown" aria-expanded="false">365 Office</NavLink>
+                                            <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/365office")} role="button" data-bs-toggle="dropdown" aria-expanded="false">365 Office</NavLink>
                                             <ul className="dropdown-menu hidden">
                                                 <li>
                                                     <NavLink to={"/"} className="dropdown-item">Bhutani Cineple</NavLink>
@@ -237,13 +263,13 @@ export default function Header() {
 
 
                                 <li className="nav-item navItem">
-                                    <NavLink className="nav-link navLink " to={"/blog"} >Blog</NavLink>
+                                    <NavLink onClick={closeNavbar} className="nav-link navLink " to={"/blog"} >Blog</NavLink>
                                 </li>
                                 <li className="nav-item navItem">
-                                    <NavLink to={"/career"} className="nav-link navLink " >Career</NavLink>
+                                    <NavLink onClick={closeNavbar} to={"/career"} className="nav-link navLink " >Career</NavLink>
                                 </li>
                                 <li className="nav-item navItem">
-                                    <NavLink to={"/contact"} className="nav-link navLink " >Contact Us</NavLink>
+                                    <NavLink onClick={closeNavbar} to={"/contact"} className="nav-link navLink " >Contact Us</NavLink>
                                 </li>
                             </ul>
                         </div>
