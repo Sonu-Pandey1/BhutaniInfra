@@ -18,14 +18,7 @@ export default function Header() {
     // window.addEventListener("scroll", changeNavbarColor);
 
     const navigate = useNavigate()
-
-
-    // let navEl = document.querySelector(".navbar-nav")
-    // let hamburgerEl = document.getElementById(".navbar-toggler")
-    // hamburgerEl.addEventListener("click",()=>{
-    //     navEl.classList.toggle("navOpen")
-
-    // })
+// togggle parents
     const closeNavbar = () => {
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector(".navbar-collapse");
@@ -39,6 +32,7 @@ export default function Header() {
         navbarCollapse.classList.remove("show");
     };
 
+    // toggle sub parent
     const navigateAndCloseNavbar = (to) => {
         navigate(to);
         closeNavbar();
