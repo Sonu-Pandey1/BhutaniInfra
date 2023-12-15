@@ -4,11 +4,13 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ListingCard from "../ListingCard/ListingCard"
 import Slider from "../ProjectSlider/Slider";
+import { useNavigate } from "react-router-dom";
 
 
 
 // slider function for responsiveness .
 export default function Hero() {
+    const navigate = useNavigate()
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -160,19 +162,17 @@ export default function Hero() {
                             emulateTouch={true} // Enable smooth scrolling
                             responsive={responsive} >
 
-                            <div ><ListingCard title={"CyberThum"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"cyberThum.webp"} /></div>
+                            <div ><ListingCard onClick={"/ourproject/alphathum"} title={"Alphathum"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"alphatthum.webp"} /></div>
 
-                            <div><ListingCard title={"Bhutani City Center 150"} about={"City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lifestyle leisure and retail areas."} style={true} imgUrl={"bhutaniCityCenter150.webp"} /></div>
+                            <div ><ListingCard onClick={"/ourproject/cyberthum"} title={"CyberThum"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"cyberThum.webp"} /></div>
 
-                            <div><ListingCard title={"Avenue 62"} about={"The future-ready retail space will offer a wider experience than just physical shops, but rather places in which to meet and engage ."} style={true} imgUrl={"avenue62.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/bhutanicitycenter150"} title={"Bhutani City Center 150"} about={"City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lifestyle leisure and retail areas."} style={true} imgUrl={"bhutaniCityCenter150.webp"} /></div>
 
-                            <div><ListingCard title={"Avenue 133"} about={"Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail. Its modern, elegant, and balanc."} style={true} imgUrl={"avenue133.jpg"} /></div>
+                            <div><ListingCard onClick={"/ourproject/avenue62avenue133"} title={"Avenue 62"} about={"The future-ready retail space will offer a wider experience than just physical shops, but rather places in which to meet and engage ."} style={true} imgUrl={"avenue62.webp"} /></div>
 
-                            <div><ListingCard title={"Avenue 234"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias"} style={true} imgUrl={"https://media.istockphoto.com/id/1159873271/photo/residential-area-in-the-city-modern-apartment-buildings.jpg?s=612x612&w=0&k=20&c=edI11N5XbGUx26oYlpMPRipqjNM86aiEpCM1PfuypPw="} /></div>
+                            <div><ListingCard onClick={"/ourproject/avenue133"} title={"Avenue 133"} about={"Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail. Its modern, elegant, and balanc."} style={true} imgUrl={"avenue133.jpg"} /></div>
 
-                            <div><ListingCard title={"Avenue 12"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias"} style={true} imgUrl={"https://media.istockphoto.com/id/1223072133/photo/cityscape-of-a-residential-area-with-modern-apartment-buildings-new-green-urban-landscape-in.jpg?s=612x612&w=0&k=20&c=4Rt3ckwGExlXMJwD7lMMxNEm0CVowexNUp1u08nHVa8="} /></div>
 
-                            <div><ListingCard title={"CyberCity"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"https://media.istockphoto.com/id/155146325/photo/colombo-thunderstorm.jpg?s=612x612&w=0&k=20&c=z94zbf63T1ifn7AqvjjZTxMa-KJzhXPcWdjgr_RFn2M="} /></div>
 
                         </Carousel>
                         {/* ongoing Projects slider end ======>>>> */}
@@ -200,19 +200,15 @@ export default function Hero() {
                             showDots={false}
                             responsive={responsive} >
 
-                            <div ><ListingCard title={"City Center GZB"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"cityCenterGZB.jpg"} /></div>
+                            <div><ListingCard onClick={"/ourproject/cyberpark"} title={"Cyber Park"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"cyberPark.jpg"} /></div>
 
-                            <div><ListingCard title={"i Thum"} about={"City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lifestyle leisure and retail areas."} style={true} imgUrl={"iThum.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/citycentergzb"} title={"City Center GZB"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"cityCenterGZB.jpg"} /></div>
 
-                            <div><ListingCard title={"Bhutani Techno Park"} about={"The future-ready retail space will offer a wider experience than just physical shops, but rather places in which to meet and engage ."} style={true} imgUrl={"bhutaniTechnoPark.jpg"} /></div>
+                            <div><ListingCard onClick={"/ourproject/365office"} title={"365 Office"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"365Office.webp"} /></div>
 
-                            <div><ListingCard title={"Bhutani City Center 150"} about={"Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail. Its modern, elegant, and balanc."} style={true} imgUrl={"bhutaniCityCenter150.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/ithum"} title={"iThum"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"iThum.webp"} /></div>
 
-                            <div><ListingCard title={"365 Office"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias"} style={true} imgUrl={"365Office.webp"} /></div>
-
-                            <div><ListingCard title={"Alphatthum"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias"} style={true} imgUrl={"alphatthum.webp"} /></div>
-
-                            <div><ListingCard title={"CyberCity"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"https://media.istockphoto.com/id/155146325/photo/colombo-thunderstorm.jpg?s=612x612&w=0&k=20&c=z94zbf63T1ifn7AqvjjZTxMa-KJzhXPcWdjgr_RFn2M="} /></div>
+                            <div><ListingCard onClick={"/ourproject/bhutanitechnopark"} title={"Bhutani Technopark"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"bhutaniTechnoPark.jpg"} /></div>
 
 
                         </Carousel>

@@ -23,9 +23,9 @@ export default function Footer() {
                                     <h4>Important</h4>
                                     <div className="impLinks">
                                         <ul>
-                                            <NavLink to={"/"} className={"navlink"}><li>Media</li></NavLink>
-                                            <NavLink to={"/blogs"} className={"navlink"}><li>Blogs</li></NavLink>
-                                            <NavLink className={"navlink"}><li>Bhutani Care</li></NavLink>
+                                            <NavLink to={"/"} className={"navlink"}><li>Home</li></NavLink>
+                                            <NavLink to={"/blog"} className={"navlink"}><li>Blogs</li></NavLink>
+                                            <NavLink to={"/about"} className={"navlink"}><li>About Us</li></NavLink>
                                             <NavLink to={"/contact"} className={"navlink"}><li>Contact Us</li></NavLink>
                                             <NavLink to={"/career"} className={"navlink"}><li>Work With Us</li></NavLink>
                                             <NavLink to={"/privacy&policy"} className={"navlink"}> <li>Privacy & Policy</li></NavLink>
@@ -68,19 +68,17 @@ export default function Footer() {
                                             <p> Noidas First 25 Acres Integrated Development.Noidas First 25 Acres</p>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
 
                             <div className="col col-12 col-sm-12 col-md-6 col-lg-3  col4 ">
                                 <div className="innercol4">
                                     <h6>Contact</h6>
-                                    <p>Plot 1, Sector - 90, Noida Expressway <br />Noida, Uttar Pradesh - 201305 </p>
-                                    <p><HiOutlineEnvelope className="ficon" /> +91 982-182-8429</p>
-                                    <p><MdCall className="ficon" /> info@bhutanigroup.com</p>
+                                    <p>505 5th Floor Tower-A Pioneer Urban Square Sector 62, Haryana 122102 </p>
+                                    <p><HiOutlineEnvelope className="ficon" /> +91 931-000-0053</p>
+                                    <p><MdCall className="ficon" /> info@turnkeyreality.com</p>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
@@ -91,7 +89,7 @@ export default function Footer() {
                                 <h6 className="text-center">DISCLAIMER</h6>
                                 <p className="row2para1">The Pictures and details are tentative depictions only. This is not a legal offer. Mentioned features are indicative and are subject to change without any prior notice as may be decided by the company or competent authority. Terms and Conditions Apply. Special Scheme by the developer.1Sq Mtr =10.764 Sq. Ft & 1Sq. Yd. = 0.83 Sq. Mtr.</p>
 
-                                <p className="row2para2">© Copyright Bhutani Infra. Design & Development By Bhutani Group </p>
+                                <p className="row2para2">@ TURNKEY REALITY Pvt. Ltd, All right reserverd. Design & Development By Sonu Pandey For TURNKEY REALITY . </p>
                             </div>
                         </div>
                     </div>

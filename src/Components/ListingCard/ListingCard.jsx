@@ -3,8 +3,9 @@
 import { useNavigate } from "react-router-dom"
 import "../ListingCard/ListingCard.scss"
 
-export default function ListingCard({ title, imgUrl, about,onClick }) {
+export default function ListingCard({ title, imgUrl, about,onClick,click }) {
     const navigate = useNavigate()
+
     return (
         <>
             <div className="card shadow " >
