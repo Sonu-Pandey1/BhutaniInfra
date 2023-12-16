@@ -1,6 +1,6 @@
 @import "../../assets/Common.scss";
 
-.footer{
+.footer {
     background-image: url("https://www.bhutanigroup.com/front/img/map.png");
 }
 
@@ -12,24 +12,23 @@
 
     .row1 {
         .col1 {
-
-            .innercol1{
+            .innercol1 {
                 padding-bottom: 130px;
             }
         }
 
         .col2 {
-            .innercol2{
-    
+            .innercol2 {
                 padding-bottom: 35px;
-                h4{
+
+                h4 {
                     font-size: 1.2rem;
                     font-weight: 600;
-                    margin-bottom: 20px;     
+                    margin-bottom: 20px;
                 }
 
-                .impLinks{
-                    .navlink{
+                .impLinks {
+                    .navlink {
                         font-family: 'Courier New', Courier, monospace;
                         color: white;
                         text-decoration: none;
@@ -41,7 +40,6 @@
 
         .col3 {
             .innercol3 {
-
                 h4 {
                     font-size: 1.2rem;
                     font-weight: 600;
@@ -49,21 +47,19 @@
                 }
 
                 .f-projects1 {
-
                     height: 5rem;
                     width: auto;
 
                     .f-imgwrapper {
-
                         margin-right: 20px;
-                        img {                    
+
+                        img {
                             border-radius: 50%;
                             width: 8rem;
                         }
                     }
 
                     .f-contentwrapper {
-                        
                         p {
                             font-size: 0.9rem;
                             color: $font-secondary-w;
@@ -77,12 +73,13 @@
 
                     .f-imgwrapper {
                         margin-right: 20px;
+
                         img {
                             border-radius: 50%;
                             width: 7rem;
                         }
                     }
-                    
+
                     .f-contentwrapper {
                         p {
                             font-size: 0.9rem;
@@ -97,15 +94,14 @@
 
                     .f-imgwrapper {
                         margin-right: 20px;
-                        img {
 
+                        img {
                             border-radius: 50%;
                             width: 7rem;
                         }
                     }
 
                     .f-contentwrapper {
-
                         p {
                             font-size: 0.9rem;
                             color: $font-secondary-w;
@@ -116,21 +112,22 @@
         }
 
         .col4 {
-            .innercol4{
+            .innercol4 {
                 padding-bottom: 110px;
+
                 h6 {
                     font-size: 1.2rem;
                     font-weight: 700;
                     margin-bottom: 20px;
                     letter-spacing: 0.1rem;
                 }
-    
+
                 p {
                     font-size: 0.9rem;
                     margin-top: -5px;
                     color: $font-secondary-w;
                 }
-    
+
                 .ficon {
                     font-size: 1.9rem;
                     border: 1px solid white;
@@ -144,7 +141,6 @@
 
     .row2 {
         .innerrow2col1 {
-
             .row2para1 {
                 font-size: 0.8rem;
                 color: $font-secondary-w;
@@ -162,41 +158,39 @@
 
 
 @media (max-width:768px) {
-    .col1{
+    .col1 {
         text-align: center;
         margin-bottom: -80px;
     }
-    .col4{
+
+    .col4 {
         padding: 40px;
     }
-    .col3{
-        padding:10px;
-        margin-top: -3rem;  
+
+    .col3 {
+        padding: 10px;
+        margin-top: -3rem;
     }
-    .col2{
+
+    .col2 {
         padding: 40px;
-        margin-top: -8rem;   
+        margin-top: -8rem;
     }
-    .hr{
+
+    .hr {
         margin-top: -8rem;
     }
 }
 
 
 @media ((min-width:400px)and (max-width:576px)) {
-    .f-imgwrapper{
-        img{
+    .f-imgwrapper {
+        img {
             height: 5rem;
         }
-        .f-projects2{
+
+        .f-projects2 {
             margin-top: 30px;
         }
     }
 }
-
-
-
-
-
-
-

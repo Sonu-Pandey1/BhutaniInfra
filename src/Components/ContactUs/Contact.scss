@@ -1,7 +1,5 @@
 .contact-wrapper {
-
     .container-fluid {
-
         .img-wrapper {
             margin: 0px;
             padding: 0px;
@@ -13,7 +11,6 @@
     }
 
     .container {
-
         .form {
             border-top: 2px solid black;
             padding: 40px;
@@ -24,7 +21,6 @@
             }
 
             form {
-
                 input {
                     padding: 8px;
                 }
@@ -34,7 +30,6 @@
                 }
 
                 .col-3 {
-
                     i {
                         color: red;
                     }
@@ -45,7 +40,6 @@
 }
 
 .form-col2 {
-
     .col-3 {
         margin: 0px;
         padding: 0px;
@@ -64,70 +58,34 @@
         }
     }
 }
-// sm---<<568..?
-// md ---<<768
-//lg ===<<992
-// xl ---<<1198
-// xxl ---<<<1395
+
+
+
 @media (max-width:768px) {
-    .contact-wrapper{
-        // background-color: red;
-        .container-fluid{
-            .img-wrapper{
-                
-                img{
+    .contact-wrapper {
+        .container-fluid {
+            .img-wrapper {
+                img {
                     height: 45vh;
                 }
             }
-
         }
 
         .container {
-
-            // .form {
-                
-            //     padding: 10px;
-   
-            //     form {
-    
-            //         input {
-            //             padding: 8px;
-            //         }
-    
-            //         .textarea {
-            //             border-radius: 6px;
-            //         }
-    
-            //         .col-3 {
-    
-            //             i {
-            //                 color: red;
-            //             }
-            //         }
-            //     }
-            // }
-
             .form-col2 {
                 margin-top: 2rem;
-                .col-9{
-                    // background-color: red;
-                    // margin-top: 1rem;
-                }
-
             }
         }
-       
     }
 
     .form-col2 {
-
         .col-3 {
             margin: 0px;
             padding: 0px;
-    
+
             .iconWrapper {
                 text-align: center;
-    
+
                 i {
                     margin-top: -50px;
                     color: rgb(255, 255, 255);
@@ -139,6 +97,4 @@
             }
         }
     }
-    
-    
 }

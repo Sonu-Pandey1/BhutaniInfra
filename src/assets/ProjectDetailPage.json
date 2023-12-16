@@ -37,14 +37,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/alphathum-floor-plan-2.jpg",
         "siteViewUrl": "alphathum.mp4",
         "contactUsVideoUrl": "/alphathum-construction.mp4",
-        "onClick1":"alphainfinity",
-        "onClick2":"alphapride",
-        "onClick3":"ultimapods",
-        "onClick4":"cloudcowork",
-        "onClick5":"alphathummypod",
-        "onClick6":"skybhutani",
-        "onClick7":"terminalaz",
-        "onClick8":"ethereacowork"
+        "onClick1": "alphainfinity",
+        "onClick2": "alphapride",
+        "onClick3": "ultimapods",
+        "onClick4": "cloudcowork",
+        "onClick5": "alphathummypod",
+        "onClick6": "skybhutani",
+        "onClick7": "terminalaz",
+        "onClick8": "ethereacowork"
     },
     {
         "id": "cyberthum",
@@ -84,14 +84,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/floorplan2_big.jpg",
         "siteViewUrl": "/alphathum.mp4 ",
         "contactUsVideoUrl": "/alphathum-construction.mp4",
-        "onClick1":"retailspace",
-        "onClick2":"officespace",
-        "onClick3":"gamingandentertainment",
-        "onClick4":"coworkingspace",
-        "onClick5":"foodandbeverage",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "retailspace",
+        "onClick2": "officespace",
+        "onClick3": "gamingandentertainment",
+        "onClick4": "coworkingspace",
+        "onClick5": "foodandbeverage",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "bhutanicitycenter150",
@@ -131,14 +131,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/city-center-2nd-Plan-Floor.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "/alphathum-construction.mp4",
-        "onClick1":"centralglam",
-        "onClick2":"gadgetstreet",
-        "onClick3":"citycentrbolt",
-        "onClick4":"centraldine",
-        "onClick5":"centralpatliputra",
-        "onClick6":"bakersalley",
-        "onClick7":"lasportzia",
-        "onClick8":"foodcourt150"
+        "onClick1": "centralglam",
+        "onClick2": "gadgetstreet",
+        "onClick3": "citycentrbolt",
+        "onClick4": "centraldine",
+        "onClick5": "centralpatliputra",
+        "onClick6": "bakersalley",
+        "onClick7": "lasportzia",
+        "onClick8": "foodcourt150"
     },
     {
         "id": "bhutanitechnopark",
@@ -178,14 +178,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/technoparksite.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"bhutanihive",
-        "onClick2":"bhutanimypod",
-        "onClick3":"foodybay",
-        "onClick4":"foodypicasso",
-        "onClick5":"bolt",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "bhutanihive",
+        "onClick2": "bhutanimypod",
+        "onClick3": "foodybay",
+        "onClick4": "foodypicasso",
+        "onClick5": "bolt",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "avenue62",
@@ -225,15 +225,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/62floorplan2.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"cp62 ",
-        "onClick2":"foodcourt62",
-        "onClick3":"wellness",
-        "onClick4":"bolt",
-        "onClick5":"sohosuite ",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
-
+        "onClick1": "cp62 ",
+        "onClick2": "foodcourt62",
+        "onClick3": "wellness",
+        "onClick4": "bolt",
+        "onClick5": "sohosuite ",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "avenue133",
@@ -273,14 +272,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/4avf.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"",
-        "onClick2":"",
-        "onClick3":"",
-        "onClick4":"",
-        "onClick5":"",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "",
+        "onClick2": "",
+        "onClick3": "",
+        "onClick4": "",
+        "onClick5": "",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "cyberpark",
@@ -320,14 +319,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/cyberparkfloorplan.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"etherea",
-        "onClick2":"ethereaaibot",
-        "onClick3":"",
-        "onClick4":"",
-        "onClick5":"",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "etherea",
+        "onClick2": "ethereaaibot",
+        "onClick3": "",
+        "onClick4": "",
+        "onClick5": "",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "citycentergzb",
@@ -367,14 +366,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/365floorplan.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"bhutanicineple",
-        "onClick2":"",
-        "onClick3":"",
-        "onClick4":"",
-        "onClick5":"",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "bhutanicineple",
+        "onClick2": "",
+        "onClick3": "",
+        "onClick4": "",
+        "onClick5": "",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "365office",
@@ -414,14 +413,14 @@
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/projects/365floorplan.jpg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"",
-        "onClick2":"",
-        "onClick3":"",
-        "onClick4":"",
-        "onClick5":"",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "",
+        "onClick2": "",
+        "onClick3": "",
+        "onClick4": "",
+        "onClick5": "",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
     {
         "id": "ithum",
@@ -461,17 +460,15 @@
         "floorPlan2ImgUrl": "https://ithumworld.com/wp-content/uploads/2023/05/3.jpeg",
         "siteViewUrl": "",
         "contactUsVideoUrl": "",
-        "onClick1":"",
-        "onClick2":"",
-        "onClick3":"",
-        "onClick4":"",
-        "onClick5":"",
-        "onClick6":"",
-        "onClick7":"",
-        "onClick8":""
+        "onClick1": "",
+        "onClick2": "",
+        "onClick3": "",
+        "onClick4": "",
+        "onClick5": "",
+        "onClick6": "",
+        "onClick7": "",
+        "onClick8": ""
     },
-
-
     {
         "subid": "alphainfinity",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/93b2d236555a0c330e2435548e8f99c5.jpg",
@@ -514,7 +511,7 @@
     },
     {
         "subid": "ultimapods",
-        "imgUrl":"https://www.bhutanigroup.com/assets/images/slider/2730fd0f32ce39e6302b5eb0c9018e04.jpg",
+        "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/2730fd0f32ce39e6302b5eb0c9018e04.jpg",
         "titleImgUrl": "",
         "aboutAlphathumTitle": "Ultima Pod",
         "aboutAlphathumContent1": "The Ultima Pod co-working spaces are one of the most vibrant and zestful office spaces in Noida for professionals and entrepreneurs who recognize socializing and networking as an imperative aspect for the development and growth of their businesses.",
@@ -632,8 +629,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg"
     },
-
-
     {
         "subid": "retailspace",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/03341354dc16ce2d92d054b4f683f8e2.jpg",
@@ -734,8 +729,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/87ac5aac2d262f6915aae75206b18db0.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/87ac5aac2d262f6915aae75206b18db0.jpg"
     },
-    
-
     {
         "subid": "centralglam",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/aea2151df9f0778a5a93296bff31dee7.jpg",
@@ -896,8 +889,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg"
     },
-
-
     {
         "subid": "bolt",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/74dbd2076a15a9168b52488b78261583.jpg",
@@ -998,8 +989,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/203387b0a2e85dbacc9f2cfd54f7adb8.jpg"
     },
-
-
     {
         "subid": "bhutanihive",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/fe5ddf9641189007b822f6a1ad5737b9.jpg",
@@ -1057,7 +1046,7 @@
         "subNavLink6": "CONTACT US",
         "locationImgUrl": "",
         "priceListImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/47ccb9287ec31d60e69d8f982695e267.jpg",
-        "floorPlan1ImgUrl":"https://www.bhutanigroup.com/assets/images/productImage/98393852ec92de6720efbf42c36d9324.jpg",
+        "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/98393852ec92de6720efbf42c36d9324.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/2691b190c74b34578071bbc760974ae7.jpg"
     },
     {
@@ -1100,8 +1089,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/372785dcc0f35eac62d1c4833d7aee4f.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/372785dcc0f35eac62d1c4833d7aee4f.jpg"
     },
-
-
     {
         "subid": "etherea",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/78aa2233f44f7dd28683242d363375ec.jpg",
@@ -1142,8 +1129,6 @@
         "floorPlan1ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/08290c9f97ec19447df937575515e7b3.jpg",
         "floorPlan2ImgUrl": "https://www.bhutanigroup.com/assets/images/productImage/08290c9f97ec19447df937575515e7b3.jpg"
     },
-
-
     {
         "subid": "bhutanicineple",
         "imgUrl": "https://www.bhutanigroup.com/assets/images/slider/8ba5f63f34f676d2e6e6569f1e1642ca.jpg",

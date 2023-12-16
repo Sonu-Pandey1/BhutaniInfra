@@ -16,40 +16,23 @@
         }
     }
 
-    .container{
-        .blogsSubContainer{
+    .container {
+        .blogsSubContainer {
             margin: 0px;
             padding: 0px;
-        
-            // background-color: red;
-        }
-
-        .btn-wrapper{
-            .prevBtn{
-                
-
-            }
-
-            .nextBtn{
-
-            }
         }
     }
 }
 
+
 @media (max-width:768px) {
-    .blog-wrapper{
-        // background-color: red;
-        .container-fluid{
-            .img-wrapper{
-                
-                img{
+    .blog-wrapper {
+        .container-fluid {
+            .img-wrapper {
+                img {
                     height: 45vh;
                 }
             }
-
         }
-       
     }
-    
 }

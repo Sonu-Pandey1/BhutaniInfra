@@ -23,15 +23,6 @@
 
 .h-wrapper {
     height: auto;
-    // background-color:yellow;
-    // background-image: url("https://www.eliteproinfra.com/uploads/banner/1681628052.webp");
-    // clip-path: ellipse(71% 59% at 50% 40%);
-    // -webkit-clip-path: ellipse(71% 59% at 50% 40%);
-    //    background-color: red;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center;
-    //    animation: fadeinout 10s infinite ease-in;
     overflow: hidden;
     position: relative;
     background-color: aqua;
@@ -41,10 +32,6 @@
     background-color: #F1E4FF;
     text-align: center;
     margin-bottom: 3vh;
-    // transform: translateY(40vh);
-    // z-index: 44;
-    // position: absolute;
-    // top: 20vh;
     position: relative;
 
     img {
@@ -118,7 +105,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    /* animation: spiner 40s linear infinite reverse ; */
     position: relative;
 
 }
@@ -191,8 +177,6 @@
 .citycentergzblogo {
     //3
     top: -18px;
-    // height: 12rem;
-    /* transform: rotate(360deg); */
     animation: spin 55s linear infinite reverse;
 }
 
@@ -279,11 +263,8 @@
 
 .poster-wrapper {
     .container-fluid {
-        // background-image: linear-gradient(90deg, rgba(50, 179, 136, 1) 0%, rgba(185, 186, 45, 0.7819502801120448) 48%, rgba(0, 212, 255, 1) 100%);
         background-color: #8EC5FC;
         background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-        
-
     }
 }
 
@@ -349,9 +330,7 @@
 @media (max-width:991px) {
 
     .b-wrapper {
-
         .maincontainer {
-
             .outerdiv {
                 height: 350px;
                 width: 350px;
@@ -359,7 +338,6 @@
         }
 
         .row {
-
             .b-col1 {
                 text-align: center;
                 margin-top: 20px;
@@ -370,28 +348,25 @@
 
 @media (max-width:600px) {
     .b-wrapper {
-
         .maincontainer {
             display: none;
         }
     }
-
 }
 
 @media (max-width :768px) {
-    
-    .h-containt-wrapper{
-        .h-container{
-            h6{
+
+    .h-containt-wrapper {
+        .h-container {
+            h6 {
                 margin-top: 1rem;
                 margin-bottom: 1rem;
             }
-            h1{
+
+            h1 {
                 // color: red;
                 font-size: 2rem;
             }
-
         }
     }
-    
 }

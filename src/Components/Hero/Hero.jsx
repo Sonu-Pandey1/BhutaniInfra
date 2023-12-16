@@ -4,13 +4,13 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ListingCard from "../ListingCard/ListingCard"
 import Slider from "../ProjectSlider/Slider";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 
 
 // slider function for responsiveness .
 export default function Hero() {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -44,7 +44,7 @@ export default function Hero() {
             <section className="h-containt-wrapper p-2">
                 {/* hero section main content is starting  here =======>>>>> */}
 
-                {/* 	https://www.extramarks.com/static/media/line-orange.6f221145.webp 
+                {/*https://www.extramarks.com/static/media/line-orange.6f221145.webp 
                   https://masaischool.com/images/new-homepage/yellow-vector.svg
                    */}
 

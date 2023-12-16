@@ -1,15 +1,11 @@
 
-
-// import { NavLink } from "react-bootstrap"
 import { useParams } from "react-router-dom"
 import Subdata from "../../../../assets/ProjectDetailPage.json"
-// import "../../../ProjectsPages/Alphathum/OverView/AoverView.scss"
 import "../../OurProjectDetailPage/AoverView.scss"
 import { useEffect, useState } from "react"
 import Form from "../../../Form/Form"
 
 export default function OurProjectDetailPage() {
-  // const navigate = useNavigate()
   const [product, setProduct] = useState({})
   const { subid } = useParams()
 
@@ -26,7 +22,6 @@ export default function OurProjectDetailPage() {
 
   return (
     <section className="AoverviewWrapper">
-      {/* <h1>project detail page project name is -- {subid}  </h1> */}
       <div className="container-fluid">
         <div className="row">
           <div className="imgWrappper ">
@@ -86,8 +81,6 @@ export default function OurProjectDetailPage() {
           </div>
         </div>}
 
-
-
         {/* price list */}
 
         <div className="container mt-4 ">
@@ -145,12 +138,9 @@ export default function OurProjectDetailPage() {
         {/* contact us */}
         <div className="container mt-5">
           <div className="row  ">
-
-            <Form/>
-
+            <Form />
           </div>
         </div>
-
       </div>
     </section>
   )

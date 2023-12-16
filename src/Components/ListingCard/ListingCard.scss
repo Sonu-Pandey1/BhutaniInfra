@@ -1,12 +1,10 @@
-
 @import "../../assets/Common.scss";
 
-.card{
-    
+.card {
     border-radius: 10px;
     margin: 6px 6px;
 
-    .card-img-top{
+    .card-img-top {
         height: 40vh;
         width: 100%;
         border-radius: 10px;
@@ -14,14 +12,12 @@
 }
 
 .card-body {
-    
-
-    .card-title {       
+    .card-title {
         font-size: 1.4rem;
         font-weight: 700;
     }
 
-    .card-text{
+    .card-text {
         color: $font-secondary-b;
         font-size: 1rem;
         height: 14vh;

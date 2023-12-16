@@ -1,69 +1,27 @@
-
-
-// // slider section
-
-
-// .p-slider{
-   
-//     .slider-title {
-        
-//         font-weight: 900;
-//         color: $primary-color;
-//         // font-size: 0.1rem;  //error
-        
-
-//     }
-// } 
-
-// .carousel-wrapper{
-//     margin: 0px;
-//     padding: 0px;
-
-// }
-
-// .carousel{
-//     div{
-//         img{
-
-//             width: 100%;
-//             height: 100%;
-//             object-fit: contain;
-//             // border: 2px solid red;
-//         }
-//     }
-// }
-
-
-
-
-.Carousel{
-    // border: 4px solid red;
-    // background-color:red;
+.Carousel {
     height: auto;
     width: 100%;
 
-    .CarouselItem{
-        img{
+    .CarouselItem {
+        img {
             border-bottom: 3px solid yellow;
             // border-radius: 1%;
             height: 100%;
             width: 100%;
-            background-position: 100% 100%; 
-            object-fit:fill;
-            
-            // border: 3px solid black;
+            background-position: 100% 100%;
+            object-fit: fill;
         }
     }
 
 }
 
 @media (max-width :768px) {
-    .Carousel{
-        .CarouselItem{
-            img{
+
+    .Carousel {
+        .CarouselItem {
+            img {
                 height: 45vh;
             }
-        
-           }
-    }    
+        }
+    }
 }

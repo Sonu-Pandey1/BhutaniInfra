@@ -1,9 +1,9 @@
 
-// import React from 'react'
 import { useState } from "react";
 import "../Form/Form.scss"
 
-export default function Form({size}) {
+// eslint-disable-next-line react/prop-types
+export default function Form({ size }) {
     const [user, setUser] = useState({
         name: "",
         email: "",
@@ -53,7 +53,6 @@ export default function Form({size}) {
 
     return (
         <>
-            {/* <div className="row"> */}
             <div className={`col form shadow-lg col-12 form-col1 col-sm-12 col-md-12 col-lg-${size} `}>
                 <h6 className="mb-4">Get In Touch</h6>
                 <form className="row g-3 " method="POST"  >
@@ -80,11 +79,7 @@ export default function Form({size}) {
                         <button onClick={formHandller} className="btn btn-dark " >Send Now</button>
                     </div>
                 </form>
-
             </div>
-            {/* </div> */}
-
-
         </>
     )
 }

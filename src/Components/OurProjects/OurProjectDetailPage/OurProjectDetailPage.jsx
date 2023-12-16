@@ -3,7 +3,6 @@
 import { NavLink } from "react-bootstrap"
 import { useNavigate, useParams } from "react-router-dom"
 import data from "../../../assets/ProjectDetailPage.json"
-// import "../../ProjectsPages/Alphathum/OverView/AoverView.scss"
 import "../OurProjectDetailPage/AoverView.scss"
 import { useEffect, useState } from "react"
 import Form from "../../Form/Form"
@@ -26,7 +25,6 @@ export default function OurProjectDetailPage() {
 
   return (
     <section className="AoverviewWrapper">
-      {/* <h1>project detail page project name is --{id} {subid}  </h1> */}
       <div className="container-fluid">
         <div className="row">
           <div className="imgWrappper ">
@@ -61,9 +59,9 @@ export default function OurProjectDetailPage() {
               </li>}
               <li><a href="#">{`${product.subNavLink2}`}</a></li>
               <li><a href="#">{`${product.subNavLink3}`}</a></li>
-              { product.subNavLink4 && <li><a href="#">{`${product.subNavLink4}`}</a></li>}
-             {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a> </li> }
-             <li><a href="#">{`${product.subNavLink6}`}</a></li>
+              {product.subNavLink4 && <li><a href="#">{`${product.subNavLink4}`}</a></li>}
+              {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a> </li>}
+              <li><a href="#">{`${product.subNavLink6}`}</a></li>
             </ul>
           </div>
         </div>
@@ -154,13 +152,10 @@ export default function OurProjectDetailPage() {
 
                   <div className="subprojectlogoWrapper">
                     {product.subProject8Url && <div><img loading="lazy" className=" subprojectlogo img-fluid img-thumbnail" src={`${product.subProject8SecondUrl}`} alt="imglogo" /></div>}
-
                   </div>
                 </NavLink>
-
               </div>
             </div>
-
           </div>
         </div>
         {/* location */}
@@ -237,12 +232,9 @@ export default function OurProjectDetailPage() {
         {/* contact us */}
         <div className="container mt-5">
           <div className="row  ">
-
-            <Form/>
-
+            <Form />
           </div>
         </div>
-
       </div>
     </section>
   )

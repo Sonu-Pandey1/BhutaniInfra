@@ -6,14 +6,6 @@ import "../ProjectSlider/Slider.scss"
 
 
 const Slider = () => {
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         // Change slide every 3 seconds
-    //         // document.getElementById('carousel').next();
-    //     }, 3000);
-
-    //     return () => clearInterval(intervalId);
-    // }, []);
 
     return (
         <Carousel

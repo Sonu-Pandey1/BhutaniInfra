@@ -3,7 +3,7 @@
 import { useNavigate } from "react-router-dom"
 import "../ListingCard/ListingCard.scss"
 
-export default function ListingCard({ title, imgUrl, about,onClick,click }) {
+export default function ListingCard({ title, imgUrl, about, onClick }) {
     const navigate = useNavigate()
 
     return (

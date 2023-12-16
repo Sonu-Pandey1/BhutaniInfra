@@ -1,6 +1,5 @@
 // Header css is here -->>>
 
-
 .navbar {
     .navbar-brand {
         padding: 1rem;
@@ -40,14 +39,16 @@
         .nav-item {
             padding: 0.8rem;
         }
-        .navItem{
-            .active{
+
+        .navItem {
+            .active {
                 color: black;
             }
         }
 
         li {
             position: relative;
+
             .nav-link {
                 font-family: 'Lexend', sans-serif; //nav
                 color: #777C85;
@@ -63,7 +64,7 @@
                 .nav-item {
                     padding: 0px;
                     margin: 0.5rem 0.4rem;
-                    
+
                     .nav-link {
                         background-color: rgb(255, 255, 255);
                         font-size: 0.9rem;
@@ -71,6 +72,7 @@
                         border-radius: 6px;
                         width: 12rem;
                     }
+
                     .nav-link:hover {
                         font-size: 0.9rem;
                         background-color: black;
@@ -86,7 +88,8 @@
                             padding-top: 8px;
                             padding-right: 40px;
                         }
-                        .active{
+
+                        .active {
                             color: rgb(255, 255, 255);
                             background-color: orange;
                             border-radius: 6px;
@@ -104,7 +107,7 @@
     }
 }
 
-.navLink:before{
+.navLink:before {
     content: "";
     position: absolute;
     bottom: 5px;
@@ -115,53 +118,33 @@
     border-radius: 90px;
     transform: scaleX(0);
     transition: transform 0.2s linear;
-
 }
-.navLink:hover::before{
+
+.navLink:hover::before {
     transform: scaleX(1);
 }
 
 
 
-// .navbg-onscroll{
+// .navbg-onscroll {
 //     top: 0px;
 //     position: fixed;
 //     z-index: 1000;
-//     // background-color: rgb(44, 44, 44);
 //     background-color: black;
 //     transition: all 0.6s ease-in-out;
 //     padding: 8px;
 
-//     .navbar-nav{
-//         // background-color: orange;
+//     .navbar-nav {
 //         li {
-//             .nav-link{
-//              color: rgb(255, 255, 255);
-//              font-size: 1rem;
-//              font-weight: 500;
+//             .nav-link {
+//                 color: rgb(255, 255, 255);
+//                 font-size: 1rem;
+//                 font-weight: 500;
 //             }
-//          }
-
-//     }
-
-
-//     li{
-//         a{
-//             color: whitesmoke;
-//             font-size: 1rem;
-
 //         }
 //     }
-
 // }
 
-// .sticky-nav{
-//     top: 0px;
-//     position: fixed;
-//     z-index: 1000;
-//     background-color: transparent;
-//     // color: aqua;
-// }
 
 .stickyNav {
     position: -webkit-sticky;
@@ -171,7 +154,7 @@
 }
 
 @media screen and (min-width: 993px) {
-    .dropdown .dropdown-menu{
+    .dropdown .dropdown-menu {
         display: none !important;
     }
 
@@ -195,9 +178,8 @@
     .dropdown:focus>.dropdown-menu {
         display: block !important;
     }
-
 }
 
-.hidden{
+.hidden {
     visibility: hidden;
 }

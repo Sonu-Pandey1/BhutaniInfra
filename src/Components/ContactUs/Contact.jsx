@@ -17,8 +17,7 @@ export default function Contact() {
             <div className="container  p-5">
                 <div className="row">
                     {/* form */}
-                    <Form size={6}/>
-                    
+                    <Form size={6} />
                     <div className="col address-detail  col-12 form-col2 col-sm-12 col-md-12 col-lg-6 pt-4">
                         <div className="row form-col2row1">
                             <div className="col col-3">
@@ -35,7 +34,7 @@ export default function Contact() {
                         <div className="row form-col2row2">
                             <div className="col col-3">
                                 <div className="iconWrapper">
-                                <i className="fa fa-home"></i>
+                                    <i className="fa fa-home"></i>
                                 </div>
                             </div>
                             <div className="col col-9">
@@ -46,9 +45,9 @@ export default function Contact() {
 
                         <div className="row form-col2row3">
                             <div className="col col-3">
-                               <div className="iconWrapper">
-                               <i className="fa fa-phone"></i>
-                               </div>
+                                <div className="iconWrapper">
+                                    <i className="fa fa-phone"></i>
+                                </div>
                             </div>
                             <div className="col col-9">
                                 <h4>Call us now</h4>
@@ -58,16 +57,15 @@ export default function Contact() {
 
                         <div className="row form-col2row4">
                             <div className="col col-3">
-                               <div className="iconWrapper">
-                               <i className="fa fa-envelope"></i>
-                               </div>
+                                <div className="iconWrapper">
+                                    <i className="fa fa-envelope"></i>
+                                </div>
                             </div>
                             <div className="col col-9">
                                 <h4>Email us</h4>
                                 <p>info@bhutanigroup.com</p>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

@@ -34,7 +34,6 @@ export default function Career() {
                                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                 culpa qui officia deserunt mollit anim id est laborum.
-
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -50,7 +49,6 @@ export default function Career() {
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
-
                 </div>
                 
                 <div className="intrestPara">

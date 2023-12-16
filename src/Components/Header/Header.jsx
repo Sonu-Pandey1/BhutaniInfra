@@ -1,5 +1,4 @@
 
-// import { useState } from "react";
 import "../Header/Header.scss"
 import { BiMenuAltRight } from "react-icons/bi";
 import { NavLink, useNavigate } from "react-router-dom";
@@ -18,7 +17,8 @@ export default function Header() {
     // window.addEventListener("scroll", changeNavbarColor);
 
     const navigate = useNavigate()
-// togggle parents
+
+    // togggle parents
     const closeNavbar = () => {
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector(".navbar-collapse");
@@ -132,9 +132,6 @@ export default function Header() {
                                                 <li>
                                                     <NavLink to={"ourproject/citycenter150/centraldine"} className="dropdown-item">Central Dine</NavLink>
                                                 </li>
-                                                {/* <li>
-                                                    <NavLink to={"ourproject/citycenter150/citycenterwellness"} className="dropdown-item">City Center Wellness</NavLink>
-                                                </li> */}
                                                 <li>
                                                     <NavLink to={"ourproject/citycenter150/centralpatliputra"} className="dropdown-item">Central Patliputra</NavLink>
                                                 </li>
@@ -144,17 +141,11 @@ export default function Header() {
                                                 <li>
                                                     <NavLink to={"ourproject/citycenter150/lasportzia"} className="dropdown-item">La Sportzia</NavLink>
                                                 </li>
-                                                {/* <li>
-                                                    <NavLink to={"ourproject/citycenter150/hyper150"} className="dropdown-item">Hyper 150</NavLink>
-                                                </li> */}
                                                 <li>
                                                     <NavLink to={"ourproject/citycenter150/foodcourt150"} className="dropdown-item">Food Court 150</NavLink>
                                                 </li>
                                             </ul>
                                         </li>
-
-
-
 
                                         <li className="nav-item dropend">
                                             <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/avenue62")} role="button" data-bs-toggle="dropdown" aria-expanded="false">Avenue 62</NavLink>
@@ -226,9 +217,7 @@ export default function Header() {
                                                 <li>
                                                     <NavLink to={"/"} className="dropdown-item">Bhutani Cineple</NavLink>
                                                 </li>
-
                                             </ul>
-
                                         </li>
                                         <li className="nav-item dropend">
                                             <NavLink className="nav-link " onClick={() => navigateAndCloseNavbar("ourproject/ithum")} role="button" data-bs-toggle="dropdown" aria-expanded="false">I Thum</NavLink>
@@ -236,9 +225,7 @@ export default function Header() {
                                                 <li>
                                                     <NavLink to={"/"} className="dropdown-item">Bhutani Cineple</NavLink>
                                                 </li>
-
                                             </ul>
-
                                         </li>
 
                                         <li className="nav-item dropend">
@@ -247,10 +234,7 @@ export default function Header() {
                                                 <li>
                                                     <NavLink to={"/"} className="dropdown-item">Bhutani Cineple</NavLink>
                                                 </li>
-
                                             </ul>
-
-
                                         </li>
                                     </ul>
                                 </li>
