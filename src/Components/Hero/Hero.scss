@@ -26,6 +26,7 @@
     overflow: hidden;
     position: relative;
     background-color: aqua;
+    width: 100%;
 }
 
 .h-containt-wrapper {
@@ -33,12 +34,17 @@
     text-align: center;
     margin-bottom: 3vh;
     position: relative;
+    // background-color: #8EC5FC;
 
-    img {
-        position: absolute;
-        left: 43%;
-        top: 52%;
-    }
+    // img {
+    //     background-color: red;
+    //     border-radius: 50%;
+    //     height: auto;
+    //     width: auto;
+    //     position: absolute;
+    //     left: 43%;
+    //     top: 52%;
+    // }
 
     h1 {
         font-weight: bold;
