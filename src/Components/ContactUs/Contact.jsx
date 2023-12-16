@@ -1,5 +1,6 @@
 
 import "../ContactUs/Contact.scss"
+import Form from "../Form/Form"
 
 
 export default function Contact() {
@@ -15,42 +16,8 @@ export default function Contact() {
 
             <div className="container  p-5">
                 <div className="row">
-                    <div className="col form shadow-lg col-12 form-col1 col-sm-12 col-md-12 col-lg-6 ">
-                        <h6 className="mb-4">Get In Touch</h6>
-                        <form className="row g-3 needs-validation"  noValidate>
-                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6   ">
-                                <input type="text" className="form-control" id="name" autoComplete="true"  placeholder="Name" required />
-                                <div className="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
-                                <input type="text" className="form-control" autoComplete="true" id={"email"} placeholder="Email" required />
-                                <div className="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
-                                <input type="text" className="form-control" autoComplete="true" id={"phone"}  placeholder="Phone" required />
-                                <div className="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
-                                <input type="text" className="form-control" id={"city"} required placeholder="City" />
-                                <div className="invalid-feedback">
-                                    Please provide a valid city.
-                                </div>
-                            </div>
-                            <div className="col">
-                                <textarea className="textarea" name="CommentSection" id={"textarea"} cols="54" rows="3" placeholder="Comment..."></textarea>
-                            </div>
-                            <div className="col-12 text-center">
-                                <button className="btn btn-dark " type="submit">Send Now</button>
-                            </div>
-                        </form>
-
-                    </div>
+                    {/* form */}
+                    <Form size={6}/>
                     
                     <div className="col address-detail  col-12 form-col2 col-sm-12 col-md-12 col-lg-6 pt-4">
                         <div className="row form-col2row1">

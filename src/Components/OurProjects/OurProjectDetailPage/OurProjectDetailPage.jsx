@@ -3,8 +3,10 @@
 import { NavLink } from "react-bootstrap"
 import { useNavigate, useParams } from "react-router-dom"
 import data from "../../../assets/ProjectDetailPage.json"
-import "../../ProjectsPages/Alphathum/OverView/AoverView.scss"
+// import "../../ProjectsPages/Alphathum/OverView/AoverView.scss"
+import "../OurProjectDetailPage/AoverView.scss"
 import { useEffect, useState } from "react"
+import Form from "../../Form/Form"
 
 export default function OurProjectDetailPage() {
   const navigate = useNavigate()
@@ -235,41 +237,8 @@ export default function OurProjectDetailPage() {
         {/* contact us */}
         <div className="container mt-5">
           <div className="row  ">
-            <div className=" col form shadow-lg ">
-              <h6 className="mb-4">Get In Touch</h6>
-              <form className="row g-3 needs-validation" noValidate>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-4 ">
-                  <input type="text" className="form-control" id="name" autoComplete="true" placeholder="Name" required />
-                  <div className="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
-                  <input type="text" className="form-control" autoComplete="true" id={"email"} placeholder="Email" required />
-                  <div className="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
-                  <input type="text" className="form-control" autoComplete="true" id={"phone"} placeholder="Phone" required />
-                  <div className="valid-feedback">
-                    Looks good!
-                  </div>
-                </div>
-                {/* <div className=" col-12 col-sm-12 col-md-6 col-lg-4">
-                  <input type="text" className="form-control" id={"city"} required placeholder="City" />
-                  <div className="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div> */}
-                <div className=" col ">
-                  <textarea className="textarea col-12  " name="CommentSection" id={"textarea"} cols="30" rows="4" placeholder="Comment..."></textarea>
-                </div>
-                <div className=" col-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                  <button className="btn btn-dark " type="submit">Send Now</button>
-                </div>
-              </form>
-            </div>
+
+            <Form/>
 
           </div>
         </div>
