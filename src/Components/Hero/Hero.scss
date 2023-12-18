@@ -9,6 +9,7 @@
 }
 
 .minislider {
+    display: none;
     background-color: #F1E4FF;
 
     h1 {
@@ -41,12 +42,13 @@
 
         h1 {
             font-weight: bold;
-            font-size: 2rem;
+            font-size: 2.4rem;
             letter-spacing: 0.6rem;
             margin-bottom: 20px;
         }
 
         h6 {
+            font-size: 1.2rem;
             letter-spacing: 0.2rem;
             font-weight: bold;
         }
@@ -249,6 +251,14 @@
 .poster-wrapper {
     margin-top: -2rem;
     .row{
+        h1{
+            font-size: 2rem;
+
+        }
+        h4{
+            font-size: 1rem;
+
+        }
         p{
             color:rgba(16, 15, 15, 0.751);
         }
@@ -415,6 +425,7 @@
 
 @media (max-width:400px) {
     .minislider {
+        // display: block;
         h1 {
             // margin-top: -2rem;
             margin-bottom: 0.2rem;
@@ -426,4 +437,10 @@
     .h-containt-wrapper {
         margin-top: -3rem;
     }
+}
+@media (max-width:1000px) {
+    .minislider {
+        display: block;
+    }
+
 }
