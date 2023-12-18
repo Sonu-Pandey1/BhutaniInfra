@@ -1,0 +1,45 @@
+.slider-container{
+     margin-top: -0.5rem;
+   
+}
+
+.imgWrapperrr{
+   
+    // background-color: red;
+    // padding-left: 100px;
+    img{
+       
+        // background-color: red;
+        width: 80%;
+        height: 80%;
+
+    }
+}
+.slick-arrow {
+    display: none !important;
+    background-color: green;
+    // visibility: hidden;
+}
+
+@media (max-width:400px) {
+    // .slider{
+    //     height: 100%;
+    //     width: 100%;
+    // }
+    .imgWrapperrr{
+        
+        // background-color: red;
+       
+        margin-left: 35px;
+        padding: 20px;
+        img{
+          
+            // background-color: blue;
+            width: 70%;
+            height: 70%;
+            
+    
+        }
+    }
+    
+}

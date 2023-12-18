@@ -14,14 +14,14 @@ export default function Contact() {
                 </div>
             </div>
 
-            <div className="container  p-5">
+            <div className="container  pt-5">
                 <div className="row">
                     {/* form */}
                     <Form size={6} />
-                    <div className="col address-detail  col-12 form-col2 col-sm-12 col-md-12 col-lg-6 pt-4">
+                    <div className="col address-detail  col-12 form-col2 col-sm-12 col-md-12 col-lg-6">
                         <div className="row form-col2row1">
                             <div className="col col-3">
-                                <div className="iconWrapper">
+                                <div className="iconWrapper text-center">
                                     <i className="fa fa-home"></i>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="row form-col2row2">
+                        <div className="row   form-col2row2">
                             <div className="col col-3">
                                 <div className="iconWrapper">
                                     <i className="fa fa-home"></i>
@@ -39,13 +39,13 @@ export default function Contact() {
                             </div>
                             <div className="col col-9">
                                 <h4>Marketing Office</h4>
-                                <p>Plot 1, Sector - 90, Noida Expressway, <br />Noida, Uttar Pradesh - 201305</p>
+                                <p>Plot 1, Sector - 90, Noida Expressway, Noida, Uttar Pradesh - 201305</p>
                             </div>
                         </div>
 
-                        <div className="row form-col2row3">
+                        <div className="row   form-col2row3">
                             <div className="col col-3">
-                                <div className="iconWrapper">
+                                <div className="iconWrapper ">
                                     <i className="fa fa-phone"></i>
                                 </div>
                             </div>
@@ -55,9 +55,9 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="row form-col2row4">
+                        <div className="row   form-col2row4">
                             <div className="col col-3">
-                                <div className="iconWrapper">
+                                <div className="iconWrapper ">
                                     <i className="fa fa-envelope"></i>
                                 </div>
                             </div>

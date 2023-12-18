@@ -14,6 +14,9 @@
         .col1 {
             .innercol1 {
                 padding-bottom: 130px;
+                img{
+
+                }
             }
         }
 
@@ -158,6 +161,15 @@
 
 
 @media (max-width:768px) {
+    .innercol1 {
+        padding-bottom: 130px;
+        img{
+            // border-radius: 50%/;
+            // margin-bottom: 90px;
+            height: auto;
+            width: auto;
+        }
+    }
     .col1 {
         text-align: center;
         margin-bottom: -80px;

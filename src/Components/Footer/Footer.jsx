@@ -37,7 +37,7 @@ export default function Footer() {
                             </div>
 
                             <div className="col col-12 col-sm-10 col-md-6 col-lg-4 col3 ">
-                                <div className="innercol3">
+                                <div className="innercol3 ">
                                     <h4>Latest Projects</h4>
                                     <div className="f-projects1 d-flex mb-4">
                                         <div className="f-imgwrapper">
@@ -45,7 +45,7 @@ export default function Footer() {
                                         </div>
                                         <div className="f-contentwrapper">
                                             <h6>Avenue 62</h6>
-                                            <p>Avenue 62 is the perfect amalgamation of an architectural form and a work of art.</p>
+                                            <p>Avenue 62 is the perfect amalga of an architectural form and a work of art.</p>
                                         </div>
                                     </div>
 

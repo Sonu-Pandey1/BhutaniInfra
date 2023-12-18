@@ -1,5 +1,5 @@
 .Carousel {
-    height: auto;
+    height: 100%;
     width: 100%;
 
     .CarouselItem {
@@ -21,9 +21,11 @@
 
     .Carousel {
         .CarouselItem {
+            height: 100%;
+            width: 100%;
             img {
                 width: 100%;
-                height: 45vh;
+                height: 170px;
             }
         }
     }

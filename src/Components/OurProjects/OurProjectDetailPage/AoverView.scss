@@ -270,8 +270,12 @@
 
         .container-fluid {
             .imgWrappper {
+                width: 100%;
+                height: 170px;
+
                 img {
-                    height: 45vh;
+                    width: 100%;
+                    height: 100%;
                 }
             }
 
@@ -305,10 +309,14 @@
 
         .container {
             .imgWrappper {
+                width: 100%;
+                height: 100%;
+                
 
                 img {
                     height: 100%;
                     width: 100%;
+
                 }
             }
         }

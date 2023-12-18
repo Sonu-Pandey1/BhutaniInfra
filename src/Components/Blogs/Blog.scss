@@ -29,8 +29,11 @@
     .blog-wrapper {
         .container-fluid {
             .img-wrapper {
+                width: 100%;
+                height: 170px;
                 img {
-                    height: 45vh;
+                    width: 100%;
+                height: 100%;
                 }
             }
         }

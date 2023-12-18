@@ -3,9 +3,12 @@
         .img-wrapper {
             margin: 0px;
             padding: 0px;
+            width: 100%;
+                height: 100%;
 
             img {
                 width: 100%;
+                height: 100%;
             }
         }
     }
@@ -49,8 +52,11 @@
     .career-wrapper {
         .container-fluid {
             .img-wrapper {
+                width: 100%;
+                height: 170px;
                 img {
-                    height: 45vh;
+                    width: 100%;
+                height: 100%;
                 }
             }
         }

@@ -3,9 +3,13 @@
         .img-wrapper {
             margin: 0px;
             padding: 0px;
+            height: 100%;
+            width: 100%;
 
             img {
                 width: 100%;
+                height: 100%;
+                // border-radius: 50%;
             }
         }
     }
@@ -40,20 +44,44 @@
 }
 
 .form-col2 {
-    .col-3 {
-        margin: 0px;
-        padding: 0px;
 
-        .iconWrapper {
-            text-align: center;
+    // padding-top: 30px;
+    .row {
+        margin-top: 20px;
+        // padding-bottom: 20px;
+        // background-color: red;
 
-            i {
-                margin-top: -50px;
-                color: rgb(255, 255, 255);
-                font-size: 1.3rem;
-                border-radius: 50%;
-                padding: 1rem;
-                background-color: black;
+        .col-3 {
+
+            margin: 0px;
+            padding: 0px;
+            // padding-bottom: 30px;
+
+
+
+            .iconWrapper {
+                text-align: center;
+
+                .fa-envelope {
+                    margin-top: 10px;
+                }
+
+                .fa-phone {
+                    margin-top: 10px;
+                }
+
+                .fa-home {
+                    margin-top: 20px;
+                }
+
+                i {
+                    margin-top: -50px;
+                    color: rgb(255, 255, 255);
+                    font-size: 1.1rem;
+                    border-radius: 50%;
+                    padding: 0.9rem;
+                    background-color: black;
+                }
             }
         }
     }
@@ -65,8 +93,12 @@
     .contact-wrapper {
         .container-fluid {
             .img-wrapper {
+                height: 170px;
+                width: 100%;
+
                 img {
-                    height: 45vh;
+                    height: 100%;
+                    width: 100%;
                 }
             }
         }
@@ -79,20 +111,53 @@
     }
 
     .form-col2 {
-        .col-3 {
-            margin: 0px;
-            padding: 0px;
 
-            .iconWrapper {
-                text-align: center;
+        .row {
+            padding-bottom: 0px;
+            font-size: 0.8rem;
 
-                i {
-                    margin-top: -50px;
-                    color: rgb(255, 255, 255);
-                    font-size: 1rem;
-                    border-radius: 50%;
-                    padding: 1rem;
-                    background-color: black;
+            .col-3 {
+                margin: 0px;
+                padding: 0px;
+                // font-size: 3rem;
+
+                .iconWrapper {
+                    text-align: center;
+
+                    .fa-envelope {
+                        // background-color: red;
+                        margin-top: -10px;
+                    }
+
+                    .fa-phone {
+                        // background-color: red;
+                        margin-top: -10px;
+                    }
+
+                    .fa-home {
+                        // background-color: red;
+                        margin-top: 10px;
+                    }
+
+                    i {
+                        margin-top: -50px;
+                        color: rgb(255, 255, 255);
+                        font-size: 0.6rem;
+                        border-radius: 50%;
+                        padding: 0.8rem;
+                        background-color: black;
+                    }
+                }
+            }
+
+            .col-9 {
+                margin: 0px;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 1.2rem;
                 }
             }
         }

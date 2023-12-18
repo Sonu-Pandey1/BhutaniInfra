@@ -72,7 +72,7 @@ export default function Form({ size }) {
                         <input type="text" className="form-control" id="city" name={"city"} autoComplete="off" onChange={inputHandller} required value={user.city} placeholder="City" />
 
                     </div>
-                    <div className="col">
+                    <div className="col-12">
                         <textarea className="textarea" onChange={inputHandller} name={"message"} autoComplete="off" id={"textarea"} cols="54" rows="3" value={user.message} placeholder="Message..."></textarea>
                     </div>
                     <div className="col-12 text-center">

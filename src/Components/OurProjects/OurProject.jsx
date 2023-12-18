@@ -10,7 +10,8 @@ export default function OurProject() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="imgWrapper">
-                        <img loading="lazy" src="https://www.bhutanigroup.com/assets/images/pages/938068cbd1f2d4c05c19a33a0fabaa3e.jpg" alt="img" />
+                        <img className="img1" loading="lazy" src="https://www.bhutanigroup.com/assets/images/pages/938068cbd1f2d4c05c19a33a0fabaa3e.jpg" alt="img" />
+                       
                     </div>
                 </div>
             </div>

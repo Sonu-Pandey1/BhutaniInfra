@@ -1,9 +1,13 @@
 .about-wrapper {
+    height: 100%;
+    width: 100%;
 
     .a-row1 {
         .imgwrapper {
             margin: 0px;
             padding: 0px;
+            width: 100%;
+                height: 100%;
 
             img {
                 border-bottom: 3px solid yellow;
@@ -16,8 +20,11 @@
     .container {
         .a-row2 {
             .imgwrapper {
+                width: 100%;
+                height: 100%;
                 img {
-                    height: 100%;
+                    margin-top: 60px;
+                    height: 80%;
                     width: 100%;
                     border-radius: 10px;
                 }
@@ -57,11 +64,13 @@
         }
 
         .a-row4 {
-            .col {
+            .col-4 {
+                text-align: center;
                 img {
-                    width: 6rem;
+                    width: 4rem;
                     height: auto;
-                    margin-left: 2rem;
+                    // margin-left: 2rem;
+                    
                 }
 
                 .imgtitle {
@@ -81,23 +90,36 @@
     .about-wrapper {
         .a-row1 {
             .imgwrapper {
+                width: 100%;
+                height: 170px;
                 img {
-                    width: 100%;
-                    height: 45vh;
+                width: 100%;
+                height: 100%;
                 }
             }
         }
 
         .container {
             .a-row2 {
+                .imgwrapper {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        margin-top: 0px;
+                        height: 90%;
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+    
                 .a-row2col2 {
                     h6 {
-                        margin-top: 1rem;
-                        font-size: 1.6rem;
+                        margin-top: -1rem;
+                        font-size: 1.3rem;
                     }
 
                     p {
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                     }
                 }
             }
@@ -105,25 +127,32 @@
             .a-row3 {
                 .a-row3col1 {
                     h6 {
-                        font-size: 1.6rem;
+                        margin-top: -3rem;
+                        font-size: 1.3rem;
                     }
 
                     p {
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                     }
                 }
             }
 
             .a-row4 {
-                .col {
+                .col-4 {
+                    // padding: -3rem;
+                    text-align: center;
                     img {
+                        width: 2rem;
                         height: auto;
-                        width: 100%;
+                        // margin-left: 2rem;
+                        
                     }
-
+    
                     .imgtitle {
                         p {
-                            font-size: 1rem;
+                            font-size: 0.8rem;
+                            color: #46494e;
+                            word-spacing: 0.1rem;
                         }
                     }
                 }

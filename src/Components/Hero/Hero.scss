@@ -1,32 +1,24 @@
 @import "../../assets/Common.scss";
 
-#citys {
-    padding: 9px;
-    margin-right: 5px;
-    border-radius: 6px;
-}
-
-.carousel-item {
-    transition: opacity 1s ease-in-out;
-}
-
-#carouselExampleFade {
-    height: 60vh;
-    width: 100%;
-}
-
-.carousel-inner img {
-    max-height: 60vh;
-    width: 100%;
-    margin: auto;
-}
-
 .h-wrapper {
-    height: auto;
+    height: 100%;
     overflow: hidden;
     position: relative;
-    background-color: aqua;
+    // background-color: aqua;
     width: 100%;
+}
+
+.minislider {
+    background-color: #F1E4FF;
+
+    h1 {
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+
 }
 
 .h-containt-wrapper {
@@ -34,46 +26,33 @@
     text-align: center;
     margin-bottom: 3vh;
     position: relative;
-    // background-color: #8EC5FC;
+    // margin-top: -1.5rem;
 
-    // img {
-    //     background-color: red;
-    //     border-radius: 50%;
-    //     height: auto;
-    //     width: auto;
-    //     position: absolute;
-    //     left: 43%;
-    //     top: 52%;
-    // }
 
-    h1 {
-        font-weight: bold;
-        font-size: 3rem;
-        letter-spacing: 0.6rem;
-        margin-bottom: 20px;
-    }
+    .h-container {
+        // background-color: red;
+        padding: 20px;
 
-    h6 {
-        letter-spacing: 0.2rem;
-        font-weight: bold;
-    }
-
-    .search-bar {
-        margin-top: -20px;
-        display: inline-block;
-        width: 60%;
-        border: none;
-        background-color: #F1E4FF;
-
-        #search-field {
-            width: 80%;
-            border: none;
-            outline: none;
-            padding: 6px;
-            border: 1px solid rgba(0, 0, 0, 0.515);
-            border-radius: 6px;
+        img {
+            margin-top: -1.9rem;
+            text-align: center;
+            // background-color: blue;
         }
+
+        h1 {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 0.6rem;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            letter-spacing: 0.2rem;
+            font-weight: bold;
+        }
+
     }
+
 }
 
 // section 2 builders ---->
@@ -268,11 +247,37 @@
 // section 3 propertyes--->
 
 .poster-wrapper {
+    margin-top: -2rem;
+    .row{
+        p{
+            color:rgba(16, 15, 15, 0.751);
+        }
+    }
+
     .container-fluid {
-        background-color: #8EC5FC;
-        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        // background-color: #c4d0dd;
+        // background-image: linear-gradient(62deg, #b1d6fa 0%, #ead6fd 100%);
+        background: linear-gradient(-45deg, #ee7652a1, #e73c7ea3, #23a5d5a1, #23d5ab99);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+       
     }
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .properties-section {
 
@@ -322,10 +327,9 @@
 }
 
 .carousel {
-
     div {
-
         img {
+
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -354,25 +358,72 @@
 
 @media (max-width:600px) {
     .b-wrapper {
-        .maincontainer {
+        .container {
             display: none;
         }
     }
+
 }
 
 @media (max-width :768px) {
 
     .h-containt-wrapper {
         .h-container {
+
+            // background-color: red;
             h6 {
                 margin-top: 1rem;
                 margin-bottom: 1rem;
             }
 
             h1 {
-                // color: red;
-                font-size: 2rem;
+                font-weight: bold;
+                font-size: 1.3rem;
+                letter-spacing: 0.2rem;
+                margin-bottom: 20px;
+
             }
         }
+    }
+
+    .poster-wrapper {
+        .row {
+
+            // background-color: red;
+            h1 {
+                font-size: 1.5rem;
+
+            }
+
+            h4 {
+                font-size: 1rem;
+
+            }
+
+            p {
+                
+                text-align: center;
+                letter-spacing: unset !important;
+                word-spacing: unset !important;
+
+            }
+        }
+
+        // display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .minislider {
+        h1 {
+            // margin-top: -2rem;
+            margin-bottom: 0.2rem;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+
+    .h-containt-wrapper {
+        margin-top: -3rem;
     }
 }

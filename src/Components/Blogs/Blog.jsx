@@ -34,7 +34,7 @@ export default function Blog() {
         <div className=" row blogs-container mt-2 ">
           {data.slice(0, visiable).map((item) => {
             {/* console.log(item) */ }
-            return <div className=" col-12 col-xxl-4 col-xl-4 col-lg-4  col-md-4 col-sm-6 blogsSubContainer" key={item.id} >
+            return <div className="mb-3 col-12 col-xxl-4 col-xl-4 col-lg-4  col-md-4 col-sm-6 blogsSubContainer" key={item.id} >
 
               <ListingCard title={item.title ? item.title.slice(0, 50) : "title not found"} about={item.body ? item.body.slice(0, 160) : "not found"} imgUrl={item.imgUrl} />
 

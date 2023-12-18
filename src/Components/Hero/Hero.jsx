@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ListingCard from "../ListingCard/ListingCard"
 import Slider from "../ProjectSlider/Slider";
+import ImageSlider from "../Slider/Slider";
 // import { useNavigate } from "react-router-dom";
 
 
@@ -30,29 +31,26 @@ export default function Hero() {
     };
 
     return (
-        // Home page is starting is here---->
         <div className="home">
-            {/* Hero section is starting here------->>>>>  */}
             <section className="h-wrapper ">
-                {/* slider is start here ========>>> */}
                 <Slider />
-                {/* slider is ends here=======>>>> */}
-
             </section>
-            {/* hero section is ends here------>>>> */}
+            <div className="section SliderSection ">
+                <div className="col-12 minislider  p-4">
+                <h1 className="text-center">A+ Developers</h1>
+                    <ImageSlider />
+                </div>
+            </div>
+
 
             <section className="h-containt-wrapper p-2">
-                {/* hero section main content is starting  here =======>>>>> */}
-
                 {/*https://www.extramarks.com/static/media/line-orange.6f221145.webp 
                   https://masaischool.com/images/new-homepage/yellow-vector.svg
                    */}
-
-
                 <div className="h-container z-3   ">
                     <h6>EXPERIENCE LUXURY WITH</h6>
                     <h1>BHUTANI INFRA   </h1>
-                    {/* <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAAAxCAYAAACxgMfdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAXjSURBVHgB7ZtPcuNEFMZfy8oUFIsoJ4hSxYJdPCcgnACOwAKmWIYTwBFmSc2KucFwASqcALMlVMXDBexZTIoa22r69T+15O5EzsSy7Hy/ikut/5LdX3+vX3eIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDEEAKOTNZUH0X7G2Y0ll9ISqKkjIgjrfQJTR7SNxGj+ery26X58RNPXlit6pa8zNdjlV959Tls0p52M+mYuzl3PaARDcQGkIYLFSlXtkynJV+oNGdExLcaLLQlXOTK37C4RCUZVXUrPyioSQngxKjEJcis9fvaYeyQk8KvLmh1IXnEicQJw4QmH4VjwQhBPC8ra+qOB2sQrKFt6U+Tvrv8RTqdZctFp0cdU6pr6woFP/fFI4l9jccQaL+j74vdgFewaCS+AdhkMqJxoOi5xgnFikNPu8UEJhVLVAvDjawuCVUBBOCBX5k4WQaTH56/D5J/W6CM8o7Cc8/oKSl/LX4L/Clw8GUeivJxPH1DNPSnDafdh5tHCUYNh1VtmZERALKxDPmsOQrXOhYHRhande2W2uZs7ijhAIqT4mEIQTQlDB5b1qi9A6p6EX3cJPzXa7PCiHsw52J4J24XB732ytOVFDRLpTX+pwrVOfxf5QuhI6x+CmUFc2+wNawTjXaTtc30gleEFznTCQdBJ3Q/sufl8khH2ch6krOj8TebHW5TCZYfZNG5cI1/laR6M14YizX6a0pwxecF5Qi9WFFpPMxqblpXG3VrchIiuUiIBIby/1pk0qobQO55zCZcpW8q1ZVxWIn7tS95D6WUodlgo5VntVSMP37OAc/j5ckb2rmpC2b/cJs4EyEJZJRDws+9cWYopczmgVcSb+jW8/XInnvz7s/j0xKMFpcS3ef6MrZUbnRlSpyq9bzaldimafxYdtKmTbxOGST2ZbatvRNpX+OKhozSzgQSUY9ogV/Si+ePWSBsxg+nDy5lsVFt7OjHbsRt8cOHFxBbcuVRG37GVdscM4qtWOfHSzYu9hhBs+deIesRvqd/hLFc5pLYHRgYbDJVyEQzcZJk4ezEw3LnITp3fRQc+NjfteMpqo6OcNDZxhOdz1i5/V4ifqA9f3MSJ2Gb5ZurKksoC6nzgmsHv2wOEGIzjjcM9mib2Bw5F5ailjz95FMLOd9X3A9tBOJ37T/cAw8SJGdTl3fU/MNNEoh7tUj/Q1XMOyFkbKQo+LSeKEzLEtR8bYBoTJnr6944D4mIcLUevDttQ4uqRaIvnjkl9hsiYi4i6ZU/nPi2FnKeXf35tMpP5kp41pTELyWNGJHjPylU474X46lqmY5doY0pOcghUZR/PjhW6dWlFOKNxUPXDH88Cmm6KzhSGSaH+bRUxvhpel5CGAD9U4OjDtvpynUglTiZIwLd/GtchdSaXZk88kStqU1ARlfb3Eb7lLh2uIWdwx60BHYu8ax+muSuqdaNKb4PwsDw4VYzM8DkpErR/RDfy6saZGeGL7G3lulnPVv3i+m/7FPiH/VI1zEfx3w3JZ+jKLs8psZlnU273w9Qyaoi5vYxJABE7qbHK8Eg0p9+FWUZ2cCTMJg0yLkGe1oKR6MX65jQaod0aiBWuLxg9o/7smGDcjAmI5CBpidkKOibgxEd2KNW0eMulwKrQjNQDNM9zVSibMXD71yUelDvdy1X9aZaXuR905OL0TEp3wYEZIKB7nMLy0LrPPU4fA7lBJP16YxF8448g10O8/M304ea2cK1vV4so/LWhxy/MSv1TbztW2cecpSNsjIqRg2ha/IIdso2qqXw4CAgNEyOvv1CL/SgnuvBZXryn5+4XUDOMmHL5BRGAf4aldF0TV71Tp1Aw9MjKyxczwEGISdST0g8ABk1O+nNDyaNPxq7Qr8Zw2TjK4/lFWqexcNoUrAcCCW+bjiNiag4j39ZPgSgB0wjjc4tmNyTSyuLLXlC3/oNHRBEICYEvosQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAb8DxdsFomSTf6mAAAAAElFTkSuQmCC" alt="" /> */}
+                    <img loading="lazy" src="data:image/png;base64,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" alt="" />
                     {/* <div className="search-bar ">
                         <select id="citys" className="shadow">
                             <option value="All">All</option>
@@ -64,11 +62,31 @@ export default function Hero() {
                     </div> */}
                 </div>
 
-                {/* hero section main content is ends  here ========>>>>>>> */}
+
 
             </section>
 
-            {/* Builders section is starts here ------>>>> */}
+             {/* poster is start here */}
+             <section className="poster-wrapper ">
+                <div className="container-fluid ">
+                    <div className="container">
+                        <div className="row properties-section text-center py-5">
+                            <h1>THE <span className="properties-title">BHUTANI INFRA</span> COLLECTIONS</h1>
+                            <h4>WHAT ARE YOU LOOKING FOR?</h4>
+                            <p className="Para">We deliver effortless luxury living at your doorstep with our exceptional contemporary properties one-of-a-kind.</p>
+                            <p className="Para">Stay up-to-date on new property options, best investment opportunities, and whats coming next.</p>
+                        </div>
+                    </div>
+                </div>
+                {/* <div className="properties-btns text-center py-3 ">
+                    <button className="btn btn-outline-dark me-1">Residential</button>
+                    <button className="btn btn-outline-dark ms-1">Commercial</button>
+                </div> */}
+            </section>
+
+            {/* poster is end here */}
+
+
             <section>
                 <div className="container-fluid b-wrapper ">
                     <div className="container  pb-5">
@@ -76,6 +94,9 @@ export default function Hero() {
                             <div className="col b-col1 col-12 col-sm-12 col-md-12 col-lg-6 ">
                                 <h5>OUR PROJECTS</h5>
                                 <h1>Get Offers from Top Projects</h1>
+                                <div className="col-12-lg">
+                                <img src="https://masaischool.com/images/new-homepage/yellow-vector.svg" alt="" />
+                                </div>
                                 <p className="mt-4 Para">Get Your Property from top-notch locations.</p>
                             </div>
 
@@ -113,25 +134,7 @@ export default function Hero() {
             </section>
             {/* Builders section is ends here ------>>>> */}
 
-            {/* poster is start here */}
-            <section className="poster-wrapper ">
-                <div className="container-fluid ">
-                    <div className="container">
-                        <div className="row properties-section text-center py-5">
-                            <h1>THE <span className="properties-title">BHUTANI INFRA</span> COLLECTIONS</h1>
-                            <h4>WHAT ARE YOU LOOKING FOR?</h4>
-                            <p className="Para">We deliver effortless luxury living at your doorstep with our exceptional contemporary properties one-of-a-kind.</p>
-                            <p className="Para">Stay up-to-date on new property options, best investment opportunities, and whats coming next.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="properties-btns text-center py-3 ">
-                    <button className="btn btn-outline-dark me-1">Residential</button>
-                    <button className="btn btn-outline-dark ms-1">Commercial</button>
-                </div>
-            </section>
-
-            {/* poster is end here */}
+           
 
             {/*Projects sections starts here -------->>>>> */}
             <section className="p-wrapper">
