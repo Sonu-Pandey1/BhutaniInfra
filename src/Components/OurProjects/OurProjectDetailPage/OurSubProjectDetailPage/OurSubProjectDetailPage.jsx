@@ -54,10 +54,10 @@ export default function OurProjectDetailPage() {
             <ul>
               {product.subNavLink1 && <li><a href="#">{`${product.subNavLink1}`}</a></li>}
               {product.subNavLink2 && <li><a href="#">{`${product.subNavLink2}`}</a></li>}
-              {product.subNavLink3 && <li><a href="#">{`${product.subNavLink3}`}</a></li>}
-              {product.subNavLink4 && <li><a href="#">{`${product.subNavLink4}`}</a></li>}
+              {product.subNavLink3 && <li><a href="#pricelist">{`${product.subNavLink3}`}</a></li>}
+              {product.subNavLink4 && <li><a href="#floorplan">{`${product.subNavLink4}`}</a></li>}
               {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a></li>}
-              {product.subNavLink6 && <li><a href="#">{`${product.subNavLink6}`}</a></li>}
+              {product.subNavLink6 && <li><a href="#contact">{`${product.subNavLink6}`}</a></li>}
             </ul>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function OurProjectDetailPage() {
 
         {/* price list */}
 
-        <div className="container mt-4 ">
+        <div id="pricelist" className="container mt-4 ">
           <div className="priceListWrapper">
             <div className="row">
               <h6>Price List</h6>
@@ -95,7 +95,7 @@ export default function OurProjectDetailPage() {
         </div>
 
         {/* Floor Plan */}
-        <div className="container mt-4">
+        <div id="floorplan" className="container mt-4">
           <div className="floorPlanWrapper ">
             <h6>Floor Plan</h6>
             <div className="row floorPlanRow  ">
@@ -118,7 +118,7 @@ export default function OurProjectDetailPage() {
         </div>
 
         {/* Site View */}
-        {product.siteViewUrl && <div>
+        {/* {product.siteViewUrl && <div>
           <div className="container mt-4">
             <div className="siteViewWrapper">
               <h6>Site View</h6>
@@ -132,11 +132,11 @@ export default function OurProjectDetailPage() {
               </div>
             </div>
           </div>
-        </div>}
+        </div>} */}
 
 
         {/* contact us */}
-        <div className="container mt-5">
+        <div id="contact" className="container mt-5">
           <div className="row  ">
             <Form />
           </div>

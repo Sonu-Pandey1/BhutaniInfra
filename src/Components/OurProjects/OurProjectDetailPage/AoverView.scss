@@ -34,12 +34,16 @@
             padding: 35px 100px;
             //! for sticky Subnav bar
             top: 48px;
+            // position: absolute;
 
             .subNav {
+                // position :fixed;
+                // position: sticky;
+                // top: 10px;
                 padding-top: 25px;
                 padding-bottom: 10px;
                 background-color: #d6dae2;
-                z-index: -1;
+                // z-index: -1;
                 border-radius: 13px;
 
                 ul {

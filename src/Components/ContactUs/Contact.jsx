@@ -27,7 +27,7 @@ export default function Contact() {
                             </div>
                             <div className="col col-9">
                                 <h4>Registered Office</h4>
-                                <p>Plot No. 3 & 4, 2nd Floor, A Block Market, Savitri Bhawan, Preet Vihar, Delhi - 110092</p>
+                                <p>505 5th Floor Tower-A Pioneer Urban Square Sector 62, Haryana 122102</p>
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                             </div>
                             <div className="col col-9">
                                 <h4>Marketing Office</h4>
-                                <p>Plot 1, Sector - 90, Noida Expressway, Noida, Uttar Pradesh - 201305</p>
+                                <p>505 5th Floor Tower-A Pioneer Urban Square Sector 62, Haryana 122102</p>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                             </div>
                             <div className="col col-9">
                                 <h4>Call us now</h4>
-                                <p>Tel : +91 2344 234 234 </p>
+                                <p>Tel : +91 931 000 0053 </p>
                             </div>
                         </div>
 
@@ -63,7 +63,7 @@ export default function Contact() {
                             </div>
                             <div className="col col-9">
                                 <h4>Email us</h4>
-                                <p>info@bhutanigroup.com</p>
+                                <p>info@turnkeyreality.com</p>
                             </div>
                         </div>
                     </div>

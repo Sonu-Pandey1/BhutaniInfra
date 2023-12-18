@@ -37,7 +37,7 @@ export default function Hero() {
             </section>
             <div className="section SliderSection ">
                 <div className="col-12 minislider  p-4">
-                <h1 className="text-center">A+ Developers</h1>
+                    <h1 className="text-center">A+ Developers</h1>
                     <ImageSlider />
                 </div>
             </div>
@@ -66,8 +66,8 @@ export default function Hero() {
 
             </section>
 
-             {/* poster is start here */}
-             <section className="poster-wrapper ">
+            {/* poster is start here */}
+            <section className="poster-wrapper ">
                 <div className="container-fluid ">
                     <div className="container">
                         <div className="row properties-section text-center py-5">
@@ -78,10 +78,6 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="properties-btns text-center py-3 ">
-                    <button className="btn btn-outline-dark me-1">Residential</button>
-                    <button className="btn btn-outline-dark ms-1">Commercial</button>
-                </div> */}
             </section>
 
             {/* poster is end here */}
@@ -95,9 +91,9 @@ export default function Hero() {
                                 <h5>OUR PROJECTS</h5>
                                 <h1>Get Offers from Top Projects</h1>
                                 <div className="col-12-lg">
-                                <img src="https://masaischool.com/images/new-homepage/yellow-vector.svg" alt="" />
+                                    <img src="https://masaischool.com/images/new-homepage/yellow-vector.svg" alt="" />
                                 </div>
-                                <p className="mt-4 Para">Get Your Property from top-notch locations.</p>
+                                <p className="mt-4 Para">Get Your Property from top-notch locations. Turnkey Reality Pvt. Ltd.is one of India`s leading tech-enabled real estate aggregator platforms. Established in January 2021, Turnkey Reality is experiencing rapid growth and has quickly become the top revenue-generating distributor for primary residential real estate in the Delhi-NCR region. Additionally, the company has established a dominant position in high-end commercial sales, enjoying exclusivity in this market segment.</p>
                             </div>
 
                             {/* round bulders animation starts here==========>>>>>>  */}
@@ -134,8 +130,6 @@ export default function Hero() {
             </section>
             {/* Builders section is ends here ------>>>> */}
 
-           
-
             {/*Projects sections starts here -------->>>>> */}
             <section className="p-wrapper">
                 <div className="container">
@@ -165,17 +159,15 @@ export default function Hero() {
                             emulateTouch={true} // Enable smooth scrolling
                             responsive={responsive} >
 
-                            <div ><ListingCard onClick={"/ourproject/alphathum"} title={"Alphathum"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"alphatthum.webp"} /></div>
+                            <div ><ListingCard onClick={"/ourproject/alphathum"} title={"Alphathum"} about={"Situated on a 26-acre plot, Cyberthum is at the forefront of technology.Cyberthum provides Noida with commercial real estate.."} style={true} imgUrl={"alphatthum.webp"} /></div>
 
-                            <div ><ListingCard onClick={"/ourproject/cyberthum"} title={"CyberThum"} about={"Standing at the cutting edge of technology, Cyberthum is spreaded in 26-acre .Cyberthum offers commercial property in Noida."} style={true} imgUrl={"cyberThum.webp"} /></div>
+                            <div ><ListingCard onClick={"/ourproject/cyberthum"} title={"CyberThum"} about={"Situated on a 26-acre plot, Cyberthum is at the forefront of technology.Cyberthum provides Noida with commercial real estate.."} style={true} imgUrl={"cyberThum.webp"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/bhutanicitycenter150"} title={"Bhutani City Center 150"} about={"City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lifestyle leisure and retail areas."} style={true} imgUrl={"bhutaniCityCenter150.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/bhutanicitycenter150"} title={"Bhutani City Center 150"} about={"The new address for experiential shopping is 150 City Center. It provides a look into how retail and lifestyle areas may develop in the future."} style={true} imgUrl={"bhutaniCityCenter150.webp"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/avenue62avenue133"} title={"Avenue 62"} about={"The future-ready retail space will offer a wider experience than just physical shops, but rather places in which to meet and engage ."} style={true} imgUrl={"avenue62.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/avenue62avenue133"} title={"Avenue 62"} about={"Future-ready retail spaces will provide more than just physical stores; they'll be gathering and interaction areas. ."} style={true} imgUrl={"avenue62.webp"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/avenue133"} title={"Avenue 133"} about={"Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail. Its modern, elegant, and balanc."} style={true} imgUrl={"avenue133.jpg"} /></div>
-
-
+                            <div><ListingCard onClick={"/ourproject/avenue133"} title={"Avenue 133"} about={"Bhutani TechnoPark in Noida offers well-designed, roomy office spaces for rent. Every benefit is present in the plan... "} style={true} imgUrl={"avenue133.jpg"} /></div>
 
                         </Carousel>
                         {/* ongoing Projects slider end ======>>>> */}
@@ -203,16 +195,15 @@ export default function Hero() {
                             showDots={false}
                             responsive={responsive} >
 
-                            <div><ListingCard onClick={"/ourproject/cyberpark"} title={"Cyber Park"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"cyberPark.jpg"} /></div>
+                            <div><ListingCard onClick={"/ourproject/cyberpark"} title={"Cyber Park"} about={"The construction and design of Cyber Park Office Spaces centers on IT infrastructure services. From setting up IT to supplying the necessary infrastructure...    "} style={true} imgUrl={"cyberPark.jpg"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/citycentergzb"} title={"City Center GZB"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"cityCenterGZB.jpg"} /></div>
+                            <div><ListingCard onClick={"/ourproject/citycentergzb"} title={"City Center GZB"} about={"For the past ten years, CITY CENTER GZB has proudly stood as Mohan Nagar, Ghaziabad's lone mall and top attraction. More than... "} style={true} imgUrl={"cityCenterGZB.jpg"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/365office"} title={"365 Office"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"365Office.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/365office"} title={"365 Office"} about={"We came to the realization that workspaces serve more purposes than only work after going through the bizarre work-from-home era. It is an environment for knowledge.  "} style={true} imgUrl={"365Office.webp"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/ithum"} title={"iThum"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"iThum.webp"} /></div>
+                            <div><ListingCard onClick={"/ourproject/ithum"} title={"iThum"} about={"On its 5-acre site, Bhutani Group provides commercial office spaces in Noida. After it's finished, I-Thum will get an extra 5-acre or so."} style={true} imgUrl={"iThum.webp"} /></div>
 
-                            <div><ListingCard onClick={"/ourproject/bhutanitechnopark"} title={"Bhutani Technopark"} about={"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Sint Labore Cupiditate Dolore Expedita, Esse Ipsam Molestias ."} style={true} imgUrl={"bhutaniTechnoPark.jpg"} /></div>
-
+                            <div><ListingCard onClick={"/ourproject/bhutanitechnopark"} title={"Bhutani Technopark"} about={"Office spaces in Noida that are well-designed and spacious are available at Bhutani TechnoPark. The proposal has all of the advantages... "} style={true} imgUrl={"bhutaniTechnoPark.jpg"} /></div>
 
                         </Carousel>
                         {/* delivered Projects slider end ======>>>> */}

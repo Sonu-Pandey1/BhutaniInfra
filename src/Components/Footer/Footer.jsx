@@ -45,7 +45,7 @@ export default function Footer() {
                                         </div>
                                         <div className="f-contentwrapper">
                                             <h6>Avenue 62</h6>
-                                            <p>Avenue 62 is the perfect amalga of an architectural form and a work of art.</p>
+                                            <p>Avenue 62 is the ideal combination of artwork and architectural form.</p>
                                         </div>
                                     </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
                                         </div>
                                         <div className="f-contentwrapper">
                                             <h6>Cyberthum</h6>
-                                            <p>Cyberthum stands at the cutting edge of technology that drives tomorrow.</p>
+                                            <p>Cyberthum is at the forefront of the technologies of the future.</p>
                                         </div>
                                     </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
                                         </div>
                                         <div className="f-contentwrapper">
                                             <h6>Alphathum</h6>
-                                            <p> Noidas First 25 Acres Integrated Development.Noidas First 25 Acres</p>
+                                            <p>First 25 Acres of Noidas Development Integrated.First 25 Acres of Noidas</p>
                                         </div>
                                     </div>
                                 </div>
@@ -87,9 +87,9 @@ export default function Footer() {
                         <div className="row row2 ">
                             <div className="col innerrow2col1">
                                 <h6 className="text-center">DISCLAIMER</h6>
-                                <p className="row2para1">The Pictures and details are tentative depictions only. This is not a legal offer. Mentioned features are indicative and are subject to change without any prior notice as may be decided by the company or competent authority. Terms and Conditions Apply. Special Scheme by the developer.1Sq Mtr =10.764 Sq. Ft & 1Sq. Yd. = 0.83 Sq. Mtr.</p>
+                                <p className="row2para1">Only approximate portrayals are made in the pictures and information. This offer is not legitimate. The features listed are illustrative and could change at any time without notice at the company`s or an appropriate authority`s discretion. There are terms and conditions. Unique Plan from the creator.One square yard is equal to 0.83 square meters and one square mile is equal to 10.764 square feet.</p>
 
-                                <p className="row2para2">@ TURNKEY REALITY Pvt. Ltd, All right reserverd. Design & Development By Sonu Pandey For TURNKEY REALITY . </p>
+                                <p className="row2para2">@ TURNKEY REALITY Pvt. Ltd, All right reserverd. Design & Development By SONU PANDEY For TURNKEY REALITY . </p>
                             </div>
                         </div>
                     </div>

@@ -49,25 +49,26 @@ export default function OurProjectDetailPage() {
         </div>
       </div>
 
-      <div className="container-fluid">
+
+      <div className="container-fluid ">
 
         <div className="row subnavrow">
-          <div className="subNav text-center">
+          <div className="text-center subNav">
             <ul>
-              {product.subNavLink1 && <li>
-                <NavLink to={""}>{`${product.subNavLink1}`}</NavLink>
-              </li>}
-              <li><a href="#">{`${product.subNavLink2}`}</a></li>
-              <li><a href="#">{`${product.subNavLink3}`}</a></li>
-              {product.subNavLink4 && <li><a href="#">{`${product.subNavLink4}`}</a></li>}
-              {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a> </li>}
-              <li><a href="#">{`${product.subNavLink6}`}</a></li>
+              {product.subNavLink1 && <a href="#projects" >{`${product.subNavLink1}`}</a>}
+              <li><a href="#location">{`${product.subNavLink2}`}</a></li>
+              <li><a href="#pricelist">{`${product.subNavLink3}`}</a></li>
+              {product.subNavLink4 && <li><a href="#floorplan">{`${product.subNavLink4}`}</a></li>}
+              {/* {product.subNavLink5 && <li><a href="#">{`${product.subNavLink5}`}</a> </li>} */}
+              <li><a href="#contact">{`${product.subNavLink6}`}</a></li>
             </ul>
           </div>
         </div>
 
 
-        <div className="container">
+        <div id="projects" className="container">
+          {product.subProject1Url && <h4>Projects</h4>}
+
           <div className="alphathumSubProjects" >
             <div className="row">
               <div className=" coll-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
@@ -159,10 +160,10 @@ export default function OurProjectDetailPage() {
           </div>
         </div>
         {/* location */}
-        <div className="container ">
+        <div id="location" className="container ">
           <div className="locationWrapper">
             <div className="row">
-              <h6>Location</h6>
+              <h6 >Location</h6>
               <div className="imgWrappper">
                 {product.locationImgUrl && <div><img src={`${product.locationImgUrl}`} alt="img" /></div>}
 
@@ -177,7 +178,7 @@ export default function OurProjectDetailPage() {
 
         {/* price list */}
 
-        <div className="container mt-4 ">
+        <div id="pricelist" className="container mt-4 ">
           <div className="priceListWrapper">
             <div className="row">
               <h6>Price List</h6>
@@ -189,7 +190,7 @@ export default function OurProjectDetailPage() {
         </div>
 
         {/* Floor Plan */}
-        <div className="container mt-4">
+        <div id="floorplan" className="container mt-4">
           <div className="floorPlanWrapper ">
             <h6>Floor Plan</h6>
             <div className="row floorPlanRow  ">
@@ -212,8 +213,8 @@ export default function OurProjectDetailPage() {
         </div>
 
         {/* Site View */}
-        {product.siteViewUrl && <div>
-          <div className="container mt-5">
+        {/* {product.siteViewUrl && <div> */}
+        {/* <div className="container mt-5">
             <div className="siteViewWrapper">
               <h6>Site View</h6>
               <div className="row">
@@ -226,11 +227,12 @@ export default function OurProjectDetailPage() {
               </div>
             </div>
           </div>
-        </div>}
+        </div> */}
+        {/* } */}
 
 
         {/* contact us */}
-        <div className="container mt-5">
+        <div id="contact" className="container mt-5">
           <div className="row  ">
             <Form />
           </div>

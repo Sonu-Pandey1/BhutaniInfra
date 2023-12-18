@@ -3,49 +3,49 @@
         "id": 1,
         "Title": "Alphathum",
         "imgUrl": "alphatthum.webp",
-        "Body": "Bhutani Alphathum is an endeavour to create superior office spaces with a workplace environment that f",
+        "Body": "The goal of Bhutani Alphathum is to develop first-rate office spaces with a work atmosphere that ",
         "onClick": "alphathum"
     },
     {
         "id": 2,
         "Title": "Cyberthum",
         "imgUrl": "cyberThum.webp",
-        "Body": "Standing at the cutting edge of technology, Cyberthum is a 26.8-acre mixed-use complex. Cyberthum off   ",
+        "Body": "Situated at the forefront of technology, Cyberthum is a mixed-use development spanning 26.8 acres. Cyberthum off   ",
         "onClick": "cyberthum"
     },
     {
         "id": 3,
         "Title": "Bhutani City Center 150",
         "imgUrl": "bhutaniCityCenter150.webp",
-        "Body": "City Center 150 is the new address for experiential retail. It offers a glimpse into the future of lif   ",
+        "Body": "The new address for experiential shopping is 150 City Center. It provides an insight into life's future.  ",
         "onClick": "bhutanicitycenter150"
     },
     {
         "id": 4,
         "Title": "Bhutani Technopark",
         "imgUrl": "bhutaniTechnoPark.jpg",
-        "Body": "Bhutani TechnoPark offers office spaces in Noida which are both spacious and well-designed. The projec   ",
+        "Body": "Large, well-designed office spaces are on offer in Noida from Bhutani TechnoPark.",
         "onClick": "bhutanitechnopark"
     },
     {
         "id": 5,
         "Title": "Avenue 62",
         "imgUrl": "avenue62.webp",
-        "Body": "The future-ready retail space will offer a wider experience than just physical shops, but rather place   ",
+        "Body": "The retail environment of the future will provide more than simply physical stores; instead, it will offer a place   ",
         "onClick": "avenue62"
     },
     {
         "id": 6,
         "Title": "Avenue 133",
         "imgUrl": "avenue133.jpg",
-        "Body": "Avenue 133 is a luxurious project meticulously crafted to set a new standard for the future of retail.   ",
+        "Body": "The opulent Avenue 133 project has been painstakingly designed to raise the bar for retail's future.   ",
         "onClick": "avenue133"
     },
     {
         "id": 7,
         "Title": "Cyber Park",
         "imgUrl": "cyberPark.jpg",
-        "Body": "Cyber Park Office Spaces are built and designed around IT infrastructure services. From providing the    ",
+        "Body": "The construction and design of Cyber Park Office Spaces centers on IT infrastructure services. From supplying the    ",
         "onClick": "cyberpark"
     },
     {
@@ -59,14 +59,14 @@
         "id": 9,
         "Title": "365 Office",
         "imgUrl": "365Office.webp",
-        "Body": "After living through the eccentric work-from-home phase, we realized that workspaces are not just about",
+        "Body": "After going through the bizarre era of working from home, we came to the conclusion that workspaces are more than merely",
         "onClick": "365office"
     },
     {
         "id": 10,
         "Title": "I Thum",
         "imgUrl": "iThum.webp",
-        "Body": "Bhutani Group offers commercial office spaces in Noida on its 5-acre plot. On its completion, I-Thum w &nbsp;&nbsp;",
+        "Body": "On its 5-acre site, Bhutani Group provides commercial office spaces in Noida. after it is finished.",
         "onClick": "ithum"
     }
 ]
