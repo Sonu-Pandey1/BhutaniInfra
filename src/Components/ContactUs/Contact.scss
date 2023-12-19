@@ -9,7 +9,6 @@
             img {
                 width: 100%;
                 height: 100%;
-                // border-radius: 50%;
             }
         }
     }
@@ -25,6 +24,7 @@
             }
 
             form {
+
                 input {
                     padding: 8px;
                 }
@@ -34,6 +34,7 @@
                 }
 
                 .col-3 {
+
                     i {
                         color: red;
                     }
@@ -45,19 +46,13 @@
 
 .form-col2 {
 
-    // padding-top: 30px;
     .row {
         margin-top: 20px;
-        // padding-bottom: 20px;
-        // background-color: red;
 
         .col-3 {
 
             margin: 0px;
             padding: 0px;
-            // padding-bottom: 30px;
-
-
 
             .iconWrapper {
                 text-align: center;
@@ -119,23 +114,19 @@
             .col-3 {
                 margin: 0px;
                 padding: 0px;
-                // font-size: 3rem;
 
                 .iconWrapper {
                     text-align: center;
 
                     .fa-envelope {
-                        // background-color: red;
                         margin-top: -10px;
                     }
 
                     .fa-phone {
-                        // background-color: red;
                         margin-top: -10px;
                     }
 
                     .fa-home {
-                        // background-color: red;
                         margin-top: 10px;
                     }
 

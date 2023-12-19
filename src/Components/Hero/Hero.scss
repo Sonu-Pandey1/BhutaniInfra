@@ -27,17 +27,13 @@
     text-align: center;
     margin-bottom: 3vh;
     position: relative;
-    // margin-top: -1.5rem;
-
 
     .h-container {
-        // background-color: red;
         padding: 20px;
 
         img {
             margin-top: -1.9rem;
             text-align: center;
-            // background-color: blue;
         }
 
         h1 {
@@ -265,12 +261,9 @@
     }
 
     .container-fluid {
-        // background-color: #c4d0dd;
-        // background-image: linear-gradient(62deg, #b1d6fa 0%, #ead6fd 100%);
         background: linear-gradient(-45deg, #ee7652a1, #e73c7ea3, #23a5d5a1, #23d5ab99);
         background-size: 400% 400%;
         animation: gradient 10s ease infinite;
-       
     }
 }
 
@@ -293,7 +286,6 @@
 
     h1 {
         font-weight: 600;
-
         .properties-title {
             color: $primary-color;
         }
@@ -380,7 +372,6 @@
     .h-containt-wrapper {
         .h-container {
 
-            // background-color: red;
             h6 {
                 margin-top: 1rem;
                 margin-bottom: 1rem;
@@ -399,7 +390,6 @@
     .poster-wrapper {
         .row {
 
-            // background-color: red;
             h1 {
                 font-size: 1.5rem;
 
@@ -419,15 +409,12 @@
             }
         }
 
-        // display: none;
     }
 }
 
 @media (max-width:400px) {
     .minislider {
-        // display: block;
         h1 {
-            // margin-top: -2rem;
             margin-bottom: 0.2rem;
             font-size: 1.6rem;
             font-weight: bold;
@@ -438,7 +425,9 @@
         margin-top: -3rem;
     }
 }
+
 @media (max-width:1000px) {
+
     .minislider {
         display: block;
     }

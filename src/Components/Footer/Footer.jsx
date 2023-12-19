@@ -90,6 +90,7 @@ export default function Footer() {
                                 <p className="row2para1">Only approximate portrayals are made in the pictures and information. This offer is not legitimate. The features listed are illustrative and could change at any time without notice at the company`s or an appropriate authority`s discretion. There are terms and conditions. Unique Plan from the creator.One square yard is equal to 0.83 square meters and one square mile is equal to 10.764 square feet.</p>
 
                                 <p className="row2para2">@ TURNKEY REALITY Pvt. Ltd, All right reserverd. Design & Development By SONU PANDEY For TURNKEY REALITY . </p>
+                                
                             </div>
                         </div>
                     </div>

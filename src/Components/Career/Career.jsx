@@ -6,6 +6,7 @@ import "../Career/Career.scss"
 export default function Career() {
     return (
         <section className="career-wrapper">
+
             <div className="container-fluid">
                 <div className="row">
                     <div className="img-wrapper">
@@ -16,14 +17,17 @@ export default function Career() {
 
             <div className="container">
                 <div className="row c-title">
+
                     <div className="careerTitle p-3">
                         <h3>Come, Grow With Us</h3>
                         <p>Join our dynamic and growing team at,TURNKEY REALITY Pvt. Ltd., where we are passionate about real estate and dedicated to delivering exceptional services to our clients. We believe that our success stems from the talent and commitment of our team members, and we are always looking for driven individuals who share our vision and values At,TURNKEY REALITY Pvt. Ltd., you`ll find a collaborative and supportive work environment that fosters professional growth and provides exciting opportunities for career advancement. We value diversity and inclusion, and we strive to create an inclusive workplace where everyone`s contributions are respected and celebrated. With a focus on innovation and a commitment to excellence, we offer great packages, comprehensive benefits, and a range of employee perks. Whether you`re an experienced professional or just starting your career. Join us in shaping the future of real estate </p>
                     </div>
+
                 </div>
 
                 <div className="row Accordion my-4 p-2">
                     <Accordion defaultActiveKey="0">
+
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >Sales Executive Intern</Accordion.Header>
                             <Accordion.Body  >
@@ -40,6 +44,7 @@ export default function Career() {
                                 Providing customers with detailed and accurate quotations and cost calculations.
                             </Accordion.Body>
                         </Accordion.Item>
+
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>React Developer Intern</Accordion.Header>
                             <Accordion.Body>
@@ -62,6 +67,7 @@ export default function Career() {
                                 Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
                             </Accordion.Body>
                         </Accordion.Item>
+
                     </Accordion>
                 </div>
 

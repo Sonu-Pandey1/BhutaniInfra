@@ -15,6 +15,7 @@ export default function About() {
 
             <div className="container my-5">
                 <div className="row a-row2">
+
                     <div className="col col-12 col-sm-12 col-md-6 col-lg-6 a-row2col1">
                         <div className="imgwrapper">
                             <img loading="lazy" className=" img-fluid img-thumbnail" src="https://www.bhutanigroup.com/front/img/overview.jpg" alt="img" />
@@ -43,41 +44,59 @@ export default function About() {
                 </div>
 
                 <div className="row a-row4 ">
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="https://www.bhutanigroup.com/front/img/icon-complex.png" alt="Parmesh Complex" />
+
                         <div className="imgtitle" >
                             <p>Parmesh Complex</p>
                         </div>
+
                     </div>
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="https://www.bhutanigroup.com/front/img/icon-complex.png" alt="Parmesh Complex" />
+
                         <div className="imgtitle">
                             <p>Parmesh Complex I</p>
                         </div>
+
                     </div>
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="https://www.bhutanigroup.com/front/img/icon-complex.png" alt="Parmesh Complex" />
+
                         <div className="imgtitle">
                             <p>Parmesh Complex II</p>
                         </div>
+
                     </div>
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="	https://www.bhutanigroup.com/front/img/icon-business-center.png" />
+
                         <div className="imgtitle">
                             <p>Parmesh Business I</p>
                         </div>
+
                     </div>
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="https://www.bhutanigroup.com/front/img/icon-business-center.png" alt="Parmesh Complex" />
+
                         <div className="imgtitle">
                             <p>Parmesh Business II</p>
                         </div>
+
                     </div>
+
                     <div className="col-4 col-sm-4 col-md-2 col-lg-2">
                         <img loading="lazy" src="https://www.bhutanigroup.com/front/img/icon-corporate-tower.png" alt="Parmesh Complex" />
+
                         <div className="imgtitle">
                             <p>Parmesh Cor.. Tower</p>
                         </div>
+
                     </div>
 
                 </div>

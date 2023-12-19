@@ -1,5 +1,4 @@
 
-// import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -42,43 +41,54 @@ const ImageSlider = () => {
                     infinite: true,
                 }
             }
-         
-           
+
+
         ]
 
     };
 
     return (
         <div className="slider-container">
+
             <Slider className='slider  text-center' {...settings}>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm' src={"/logos/365Officelogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/alphathumlogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr '>
-                <img className='shadow-sm'  src={"/logos/avenue62Logo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/cityCenter150Logo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/citycentergzblogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/cyberparklogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/cyberThumlogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/iThumlogo.png"} alt="img" />
-            </div>
-            <div className='imgWrapperrr'>
-                <img className='shadow-sm'  src={"/logos/technoparklogo.png"} alt="img" />
-            </div>
-        </Slider>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/365Officelogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/alphathumlogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr '>
+                    <img className='shadow-sm' src={"/logos/avenue62Logo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/cityCenter150Logo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/citycentergzblogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/cyberparklogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/cyberThumlogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/iThumlogo.png"} alt="img" />
+                </div>
+
+                <div className='imgWrapperrr'>
+                    <img className='shadow-sm' src={"/logos/technoparklogo.png"} alt="img" />
+                </div>
+
+            </Slider>
         </div>
     );
 };

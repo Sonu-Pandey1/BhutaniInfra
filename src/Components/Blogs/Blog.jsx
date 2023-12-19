@@ -28,9 +28,11 @@ export default function Blog() {
       </div>
 
       <div className="container">
+
         <div className="blogTitle mt-5 text-center">
           <h1> Our Blogs</h1>
         </div>
+
         <div className=" row blogs-container mt-2 ">
           {data.slice(0, visiable).map((item) => {
             {/* console.log(item) */ }
@@ -42,10 +44,12 @@ export default function Blog() {
           })}
 
         </div>
+
         <div className="btn-wrapper d-flex justify-content-between pt-4">
           <button className="prevBtn btn btn-outline-dark" disabled={visiable <= 12} onClick={HandlePrevBtn}>Previous</button>
           <button className="nextBtn btn btn-outline-dark" disabled={visiable >= data.length} onClick={HandleNextBtn}>Next</button>
         </div>
+
       </div>
     </section>
   )

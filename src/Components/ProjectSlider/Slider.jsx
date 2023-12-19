@@ -25,6 +25,7 @@ const Slider = () => {
                     style={{ maxHeight: '800px', width: '100%' }} // Adjust the size of the image
                 />
             </Carousel.Item>
+
             <Carousel.Item className='CarouselItem'>
                 <img loading="lazy"
                     className="d-block w-100 "
@@ -33,6 +34,7 @@ const Slider = () => {
                     style={{ maxHeight: '800px', width: '100%' }} // Adjust the size of the image
                 />
             </Carousel.Item>
+
             <Carousel.Item className='CarouselItem'>
                 <img loading="lazy"
                     className="d-block w-100"
@@ -41,6 +43,7 @@ const Slider = () => {
                     style={{ maxHeight: '800px', width: '100%' }} // Adjust the size of the image
                 />
             </Carousel.Item>
+            
         </Carousel>
     );
 };
