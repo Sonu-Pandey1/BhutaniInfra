@@ -10,20 +10,21 @@
 
 .minislider {
     display: none;
-    background-color: #F1E4FF;
+    // background-color: #F1E4FF;
 
     h1 {
-        margin-top: -1rem;
-        margin-bottom: 1.5rem;
+        // margin-top: -1rem;
+        // margin-bottom: 1.5rem;
         font-size: 2rem;
         font-weight: bold;
+        // background-color: red;
     }
 
 
 }
 
 .h-containt-wrapper {
-    background-color: #F1E4FF;
+    // background-color: #F1E4FF;
     text-align: center;
     margin-bottom: 3vh;
     position: relative;
@@ -45,6 +46,7 @@
 
         h6 {
             font-size: 1.2rem;
+            // background-color: red;
             letter-spacing: 0.2rem;
             font-weight: bold;
         }
@@ -256,6 +258,7 @@
 
         }
         p{
+            
             color:rgba(16, 15, 15, 0.751);
         }
     }
@@ -285,14 +288,17 @@
 .properties-section {
 
     h1 {
+        // font-size: 2rem !important;
         font-weight: 600;
         .properties-title {
             color: $primary-color;
         }
+        // background-color: red;
     }
 
     h4 {
         font-weight: 600;
+        // background-color: red;
         letter-spacing: 0.1rem;
         margin-top: 0.6rem;
         margin-bottom: 1rem
@@ -307,6 +313,7 @@
 // slider section
 
 .p-slider {
+    // background-color: red;
     margin: 0px;
     padding: 0px;
     transition: all 3s ease-in;
@@ -314,7 +321,13 @@
     .slider-title {
         font-weight: 900;
         color: $primary-color;
+        h5{
+            font-size: 2rem;
+            letter-spacing: 0.1rem;
+            color: black;
+        }
     }
+   
 }
 
 .carousel-wrapper {
@@ -365,6 +378,16 @@
         }
     }
 
+    .p-slider {
+        .slider-title {
+            h5{
+                font-size: 1.4rem;
+                letter-spacing: 0.1rem;
+                color: black;
+            }
+        }
+    }
+
 }
 
 @media (max-width :768px) {
@@ -375,6 +398,8 @@
             h6 {
                 margin-top: 1rem;
                 margin-bottom: 1rem;
+                // background-color: red;
+                font-size: 1rem;
             }
 
             h1 {
@@ -412,17 +437,13 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
     .minislider {
         h1 {
-            margin-bottom: 0.2rem;
-            font-size: 1.6rem;
-            font-weight: bold;
+            font-size: 1.7rem;
+            font-weight: lighter;
+            // background-color: red;
         }
-    }
-
-    .h-containt-wrapper {
-        margin-top: -3rem;
     }
 }
 

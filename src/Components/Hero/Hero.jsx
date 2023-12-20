@@ -36,15 +36,6 @@ export default function Hero() {
                 <Slider />
             </section>
 
-            <div className="section SliderSection ">
-
-                <div className="col-12 minislider  p-4">
-                    <h1 className="text-center">A+ Developers</h1>
-                    <ImageSlider />
-                </div>
-
-            </div>
-
             <section className="h-containt-wrapper p-2">
 
                 {/*https://www.extramarks.com/static/media/line-orange.6f221145.webp 
@@ -59,6 +50,7 @@ export default function Hero() {
                 </div>
 
             </section>
+
 
             {/* poster is start here */}
             <section className="poster-wrapper ">
@@ -77,6 +69,16 @@ export default function Hero() {
             </section>
 
             {/* poster is end here */}
+
+            
+            <div className="section SliderSection ">
+
+                <div className="col-12 minislider  p-4">
+                    <h1 className="text-center">A+ Developers</h1>
+                    <ImageSlider />
+                </div>
+
+            </div>
 
             <section>
                 <div className="container-fluid b-wrapper ">
@@ -133,7 +135,7 @@ export default function Hero() {
                     <div className="row p-slider pt-4">
 
                         <div className="slider-title ">
-                            <h5>Ongoing Projects</h5>
+                            <h5>OnGoing Projects</h5>
                         </div>
 
                         {/* ongoing Projects slider ======>>>> */}

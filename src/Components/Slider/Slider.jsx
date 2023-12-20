@@ -53,39 +53,39 @@ const ImageSlider = () => {
             <Slider className='slider  text-center' {...settings}>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/365Officelogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/365Officelogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/alphathumlogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/alphathumlogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr '>
-                    <img className='shadow-sm' src={"/logos/avenue62Logo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/avenue62Logo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/cityCenter150Logo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/cityCenter150Logo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/citycentergzblogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/citycentergzblogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/cyberparklogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/cyberparklogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/cyberThumlogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/cyberThumlogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/iThumlogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/iThumlogo.png"} alt="img" />
                 </div>
 
                 <div className='imgWrapperrr'>
-                    <img className='shadow-sm' src={"/logos/technoparklogo.png"} alt="img" />
+                    <img className='shadow' src={"/logos/technoparklogo.png"} alt="img" />
                 </div>
 
             </Slider>
