@@ -1,5 +1,6 @@
 
 import './App.scss'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import HashLoader from "react-spinners/HashLoader";
@@ -18,6 +19,7 @@ import About from './Components/AboutUs/About.jsx'
 import Career from './Components/Career/Career.jsx'
 import Contact from './Components/ContactUs/Contact.jsx'
 import Blog from './Components/Blogs/Blog.jsx'
+import { GetrealtimeData } from './Components/GetDatafromdb/index.jsx';
 // import OurProjectDetailPage from './Components/OurProjects/OurProjectDetailPage/OurProjectDetailPage.jsx';
 // import OurSubProjectDetailPage from './Components/OurProjects/OurProjectDetailPage/OurSubProjectDetailPage/OurSubProjectDetailPage.jsx';
 
@@ -38,6 +40,7 @@ function App() {
     <>
 
       <Header />
+      
       <Routes>
         <Route path='/' element={<Hero />} />
         <Route path='/about' element={<About />} />
@@ -55,6 +58,7 @@ function App() {
         <Route path='/*' element={<h1>404 Page Not Found</h1>} />
       </Routes>
       <Footer />
+      <GetrealtimeData/>
 
       {/* <ErrorBoundary FallbackComponent={ErrorFallback} onReset={()=>{}}> */}
 

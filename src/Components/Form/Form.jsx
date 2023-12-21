@@ -8,6 +8,8 @@ export default function Form({ size }) {
         name: "",
         email: "",
         phone: "",
+        budget:"",
+        date:"",
         city: "",
         message: ""
     })
@@ -22,8 +24,8 @@ export default function Form({ size }) {
 
     const formHandller = async (e) => {
         e.preventDefault();
-        const { name, email, phone, city, message } = user;
-        const res = await fetch("https://bhutaniproject-795f4-default-rtdb.firebaseio.com/bhutani-project.json",
+        const { name, email, phone, budget, date, city, message } = user;
+        const res = await fetch("https://bhutaniproject-795f4-default-rtdb.firebaseio.com/UserMessage.json",
             {
                 method: "POST",
                 headers: {
@@ -33,6 +35,8 @@ export default function Form({ size }) {
                     name,
                     email,
                     phone,
+                    budget,
+                    date,
                     city,
                     message
                 })
@@ -41,6 +45,8 @@ export default function Form({ size }) {
             name: "",
             email: "",
             phone: "",
+            budget:"",
+            date:"",
             city: "",
             message: "",
         })
@@ -69,6 +75,14 @@ export default function Form({ size }) {
 
                     <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                         <input type="text" className="form-control" id="phone" name={"phone"} autoComplete="off" onChange={inputHandller} value={user.phone} placeholder="Phone" required />
+                    </div>
+
+                    <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                        <input type="text" className="form-control" id="budget" name={"budget"} autoComplete="off" onChange={inputHandller} value={user.budget} placeholder="Your Estimate Budget (In Cr):-" required />
+                    </div>
+
+                    <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                        <input type="date" className="form-control" id="date" name={"date"} autoComplete="off" onChange={inputHandller} value={user.date} placeholder="Date" required />
                     </div>
 
                     <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
