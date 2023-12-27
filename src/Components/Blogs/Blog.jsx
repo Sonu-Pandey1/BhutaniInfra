@@ -1,12 +1,37 @@
 import "../Blogs/Blog.scss"
 import ListingCard from "../ListingCard/ListingCard"
 import BlogListing from "../../assets/BlogListing.json"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { collection, onSnapshot } from "firebase/firestore";
+import { db } from "../../FirebaseConfig";
 
 
 export default function Blog() {
 
-  let data = BlogListing
+  const [data, setData] = useState([]);
+
+    // instance data render the Query form--->>
+
+    // Get Realtime Data From Firebase.
+    useEffect(() => {
+
+        const unsub = onSnapshot(collection(db, "blogs"), (snapShot) => {
+            let list = [];
+            snapShot.docs.forEach(doc => {
+                list.push({ id: doc.id, ...doc.data() });
+            });
+            setData(list)
+        }, (error) => {
+            console.log(error)
+        });
+
+        return () => {
+            unsub();
+        }
+    }, [])
+    console.log(data);
+
+  // let data = BlogListing
   const [visiable, setVisiable] = useState(12)
 
   let HandlePrevBtn = () => {
@@ -38,7 +63,8 @@ export default function Blog() {
             {/* console.log(item) */ }
             return <div className="mb-3 col-12 col-xxl-4 col-xl-4 col-lg-4  col-md-4 col-sm-6 blogsSubContainer" key={item.id} >
 
-              <ListingCard title={item.title ? item.title.slice(0, 50) : "title not found"} about={item.body ? item.body.slice(0, 160) : "not found"} imgUrl={item.imgUrl} />
+              <ListingCard title={item.title ? item.title.slice(0, 50) : "title not found"} about={item.description ? item.description.slice(0, 160) : "not found"} imgUrl={item.img} />
+              
 
             </div>
           })}

@@ -2,9 +2,35 @@
 // import React from 'react'
 import ListingCard from "../ListingCard/ListingCard"
 import "../OurProjects/OurProject.scss"
-import ProjectListing from "../../assets/ProjectListing.json"
+import { collection, onSnapshot } from "firebase/firestore";
+import { db } from "../../FirebaseConfig";
+import { useEffect, useState } from "react";
 
 export default function OurProject() {
+
+    const [data, setData] = useState([]);
+
+    // instance data render the Query form--->>
+
+    // Get Realtime Data From Firebase.
+    useEffect(() => {
+
+        const unsub = onSnapshot(collection(db, "propertys"), (snapShot) => {
+            let list = [];
+            snapShot.docs.forEach(doc => {
+                list.push({ id: doc.id, ...doc.data() });
+            });
+            setData(list)
+        }, (error) => {
+            console.log(error)
+        });
+
+        return () => {
+            unsub();
+        }
+    }, [])
+    console.log(data);
+
     return (
         <section className="ourProjectWrapper">
             <div className="container-fluid">
@@ -19,11 +45,11 @@ export default function OurProject() {
                 <h6>Our Projects</h6>
                 <div className="row">
                     {
-                        ProjectListing.map((items) => {
+                        data.map((items) => {
                             {/* console.log(items) */ }
 
                             return <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3" key={items.id}>
-                                <ListingCard title={items.Title} imgUrl={items.imgUrl} about={items.Body ? items.Body.slice(0, 120) : "content not found"} onClick={items.onClick} />
+                                <ListingCard title={items.title} imgUrl={items.img} about={items.description ? items.description.slice(0, 120) : "content not found"} onClick={items.route} />
                             </div>
                         })
                     }
