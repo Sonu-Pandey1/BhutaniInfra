@@ -306,9 +306,9 @@ export default function Header() {
                                     <NavLink onClick={closeNavbar} to={"/contact"} className="nav-link navLink " >Contact Us</NavLink>
                                 </li>
 
-                                <li className="nav-item navItem">
+                                {/* <li className="nav-item navItem">
                                     <NavLink onClick={closeNavbar} to={"/login"} className="nav-link  navLink " ><button className="btn btn-outline-warning">Admin Login</button></NavLink>
-                                </li>
+                                </li> */}
 
                             </ul>
 

@@ -137,27 +137,32 @@ export const querysColumns = [
   {
     field: "budget",
     headerName: "Budget",
-    width: 100,
+    width: 110,
   },
   {
-    field: "city",
-    headerName: "City",
-    width: 100,
+    field: "email",
+    headerName: "Email",
+    width: 210,
   },
-  {
-    field: "for",
-    headerName: "For",
-    width: 70,
-  },
-  {
-    field: "size",
-    headerName: "Size",
-    width: 80,
-  },
+  // {
+  //   field: "city",
+  //   headerName: "City",
+  //   width: 100,
+  // },
+  // {
+  //   field: "for",
+  //   headerName: "For",
+  //   width: 70,
+  // },
+  // {
+  //   field: "size",
+  //   headerName: "Size",
+  //   width: 80,
+  // },
   {
     field: "formattedDate",
     headerName: "QueryDate",
-    width: 110,
+    width: 130,
   },
 ];
 

@@ -380,14 +380,14 @@ const Single = ({ titles }) => {
                   <MonetizationOnOutlinedIcon className="userShowIcon" />
                   <span className="userShowInfoTitle">{items.budget}</span>
                 </div>
-                <div className="userShowInfo">
+                {/* <div className="userShowInfo">
                   <HomeOutlinedIcon className="userShowIcon" />
                   <span className="userShowInfoTitle">{items.for}</span>
-                </div>
-                <div className="userShowInfo">
+                </div> */}
+                {/* <div className="userShowInfo">
                   <BedOutlinedIcon className="userShowIcon" />
                   <span className="userShowInfoTitle">{items.size}</span>
-                </div>
+                </div> */}
                 <div className="userShowInfo">
                   <DescriptionOutlinedIcon className="userShowIcon" />
                   <span className="userShowInfoTitle">{items.id}</span>

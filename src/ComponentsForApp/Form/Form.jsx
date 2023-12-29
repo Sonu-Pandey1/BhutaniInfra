@@ -87,17 +87,17 @@ export default function Form({size}) {
                         <input type="date" className="form-control" id="queryDate" name={"queryDate"} autoComplete="off" onChange={handleInput} value={data.queryDate} placeholder="" required />
                     </div> */}
                     {/* <label className="label" htmlFor="city">City</label> */}
-                    <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                    {/* <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                        City <input type="text" className="form-control" id="city" name={"city"} autoComplete="off" onChange={handleInput} required value={data.city} placeholder="City" />
-                    </div>
+                    </div> */}
                     {/* <label className="label" htmlFor="size">Size</label> */}
-                    <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                    {/* <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                         Size<input type="text" className="form-control" id="size" name={"size"} autoComplete="off" onChange={handleInput} required value={data.size} placeholder=" 2BHK ,3BHK ,4BHK ,etc" />
-                    </div>
+                    </div> */}
                     {/* <label className="label" htmlFor="for">For</label> */}
-                    <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
+                    {/* <div className=" col-12 col-sm-12 col-md-6 col-lg-6 ">
                         For<input type="text" className="form-control" id="for" name={"for"} autoComplete="off" onChange={handleInput} required value={data.for} placeholder="Rent, Buy, Resale ,etc" />
-                    </div>
+                    </div> */}
                     {/* <label className="label" htmlFor="message">Message</label> */}
                     <div className="col-12">
                         Message<textarea className="textarea" onChange={handleInput} name={"message"} autoComplete="off" id={"message"} cols="54" rows="3" value={data.message} placeholder="Message..."></textarea>
