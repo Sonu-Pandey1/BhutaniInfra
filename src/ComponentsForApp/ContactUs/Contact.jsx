@@ -9,6 +9,10 @@ export default function Contact() {
     return (
         <section className="contact-wrapper">
             <Header />
+            <div className="whatsapplogo">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/918766325423?text=I'm%20interested%20in%20your%20Propertys%20for%20Buy"> <img alt="Chat on WhatsApp" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" width={50} />
+                </a>
+            </div>
 
             <div className="container-fluid">
                 <div className="row">

@@ -11,13 +11,14 @@ import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import SettingsApplicationsOutlinedIcon from "@mui/icons-material/SettingsApplicationsOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import ExitToAppOutlinedIcon from "@mui/icons-material/ExitToAppOutlined";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { DarkModeContext } from "../../Context/darkModeContext";
 import { useContext, useEffect } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "../../FirebaseConfig";
 
 function Sidebar() {
+  const navigate = useNavigate()
 
   const handleSignOut = async () => {
     try {
@@ -33,7 +34,7 @@ function Sidebar() {
         // User is signed out
         localStorage.removeItem("user");
         localStorage.removeItem("token");
-        // navigate("/login");
+        navigate("/login");
         // console.log("signed out")
       } else {
         // console.log("signed in")
@@ -41,8 +42,9 @@ function Sidebar() {
     }, []);
 
     return () => unsubscribe(); // Cleanup the listener on component unmount
-  }, []);
+  }, [navigate]);
 
+  
 
   const { dispatch } = useContext(DarkModeContext)
 
@@ -96,7 +98,7 @@ function Sidebar() {
             </li>
           </NavLink>
 
-          <div className="unusefullinks">
+          {/* <div className="unusefullinks">
             <p className="title">USEFUL</p>
             <li>
               <AddchartOutlinedIcon className="icon" />
@@ -119,12 +121,12 @@ function Sidebar() {
               <SettingsApplicationsOutlinedIcon className="icon" />
               <span>Settings</span>
             </li>
-          </div>
+          </div> */}
           <p className="title">USER</p>
-          <li>
+          {/* <li>
             <AccountCircleOutlinedIcon className="icon" />
             <span>Profile</span>
-          </li>
+          </li> */}
           <NavLink to={"/login"} style={{ textDecoration: "none" }}>
             <li>
               <ExitToAppOutlinedIcon className="icon" />
@@ -133,10 +135,10 @@ function Sidebar() {
           </NavLink>
         </ul>
       </div>
-      <div className="bottom">
+      {/* <div className="bottom">
         <div className="colorOption" onClick={() => dispatch({ type: "LIGHT" })}></div>
         <div className="colorOption" onClick={() => dispatch({ type: "DARK" })}></div>
-      </div>
+      </div> */}
     </div >
   );
 }

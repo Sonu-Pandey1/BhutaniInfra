@@ -12,26 +12,26 @@ export default function Blog() {
 
   const [data, setData] = useState([]);
 
-    // instance data render the Query form--->>
+  // instance data render the Query form--->>
 
-    // Get Realtime Data From Firebase.
-    useEffect(() => {
+  // Get Realtime Data From Firebase.
+  useEffect(() => {
 
-        const unsub = onSnapshot(collection(db, "blogs"), (snapShot) => {
-            let list = [];
-            snapShot.docs.forEach(doc => {
-                list.push({ id: doc.id, ...doc.data() });
-            });
-            setData(list)
-        }, (error) => {
-            console.log(error)
-        });
+    const unsub = onSnapshot(collection(db, "blogs"), (snapShot) => {
+      let list = [];
+      snapShot.docs.forEach(doc => {
+        list.push({ id: doc.id, ...doc.data() });
+      });
+      setData(list)
+    }, (error) => {
+      console.log(error)
+    });
 
-        return () => {
-            unsub();
-        }
-    }, [])
-    // console.log(data);
+    return () => {
+      unsub();
+    }
+  }, [])
+  // console.log(data);
 
   // let data = BlogListing
   const [visiable, setVisiable] = useState(12)
@@ -47,7 +47,11 @@ export default function Blog() {
 
   return (
     <section className="blog-wrapper">
-    <Header/>
+      <Header />
+      <div className="whatsapplogo">
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/918766325423?text=I'm%20interested%20in%20your%20Propertys%20for%20Buy"> <img alt="Chat on WhatsApp" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" width={50} />
+        </a>
+      </div>
 
       <div className="container-fluid bg-danger">
         <div className="img-wrapper">
@@ -67,7 +71,7 @@ export default function Blog() {
             return <div className="mb-3 col-12 col-xxl-4 col-xl-4 col-lg-4  col-md-4 col-sm-6 blogsSubContainer" key={item.id} >
 
               <ListingCard title={item.title ? item.title.slice(0, 50) : "title not found"} about={item.description ? item.description.slice(0, 160) : "not found"} imgUrl={item.img} />
-              
+
 
             </div>
           })}
@@ -80,7 +84,7 @@ export default function Blog() {
         </div>
 
       </div>
-      <Footer/>
+      <Footer />
     </section>
   )
 }

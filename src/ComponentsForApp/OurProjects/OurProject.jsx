@@ -6,7 +6,7 @@ import { collection, onSnapshot } from "firebase/firestore";
 import { db } from "../../FirebaseConfig";
 import { useEffect, useState } from "react";
 import Header from "../Header/Header"
-import Footer from  "../Footer/Footer"
+import Footer from "../Footer/Footer"
 
 export default function OurProject() {
 
@@ -36,6 +36,10 @@ export default function OurProject() {
     return (
         <section className="ourProjectWrapper">
             <Header />
+            <div className="whatsapplogo">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/918766325423?text=I'm%20interested%20in%20your%20Propertys%20for%20Buy"> <img alt="Chat on WhatsApp" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" width={50} />
+                </a>
+            </div>
             <div className="container-fluid">
                 <div className="row">
                     <div className="imgWrapper">

@@ -34,6 +34,10 @@ export default function Hero() {
 
         <div className="home">
             <Header />
+            <div className="whatsapplogo">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/918766325423?text=I'm%20interested%20in%20your%20Propertys%20for%20Buy"> <img alt="Chat on WhatsApp" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" width={50} />
+                </a>
+            </div>
 
 
 
@@ -215,7 +219,7 @@ export default function Hero() {
                 </div>
             </section>
             {/*Projects sections ends here -------->>>>> */}
-            <Footer/>
+            <Footer />
 
         </div>
         // Home page is ends is here---->
