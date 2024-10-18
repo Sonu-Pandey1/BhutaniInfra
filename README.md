@@ -1,4 +1,4 @@
-live preview -------->> http://localhost:5173/
+live preview -------->>  https://bhutaniinfra.netlify.app/
 
 
 
